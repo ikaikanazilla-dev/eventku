@@ -1,0 +1,5 @@
+@extends('layouts.organizer')
+
+@section('organizer-content')
+    <section class="section"><div class="container"><div class="section-heading"><div><span class="eyebrow">RINGKASAN DATA</span><h1>Laporan event</h1><p class="muted">Lihat jumlah pendaftar dan sisa kuota berdasarkan data aktual.</p></div></div><div class="event-grid">@forelse($events as $event)<article class="card"><span class="badge {{ $event->status === 'published' ? 'badge-success' : 'badge-warning' }}">{{ ucfirst($event->status) }}</span><h3 style="margin-top:14px">{{ $event->name }}</h3><p class="muted">{{ $event->start_at->format('d M Y') }} WIB &middot; {{ $event->location }}</p><div class="stat-card" style="margin-top:18px"><label>Pendaftar aktif</label><strong>{{ $event->registered_count }}</strong><div class="meta"><span>Kuota {{ $event->ticketTypes->sum('quota') }}</span><span>Sisa {{ max(0, $event->ticketTypes->sum('quota') - $event->registered_count) }}</span></div></div></article>@empty<div class="card empty">Belum ada data laporan.</div>@endforelse</div></div></section>
+@endsection

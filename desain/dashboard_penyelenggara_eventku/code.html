@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-low":"#f1f3ff","inverse-primary":"#b7c4ff","error-container":"#ffdad6","surface-container-high":"#e1e8ff","surface-container-lowest":"#ffffff","secondary-fixed":"#dbe2f9","primary-container":"#3867ff","on-tertiary":"#ffffff","surface-bright":"#f9f9ff","background":"#f9f9ff","primary-fixed":"#dde1ff","on-secondary-fixed":"#141b2c","primary":"#094be5","outline-variant":"#c3c5d8","tertiary-fixed-dim":"#c9beff","on-tertiary-container":"#fffdff","surface-dim":"#d1daf4","surface-container":"#e9edff","tertiary":"#5d39e5","on-secondary-container":"#5c6477","on-tertiary-fixed":"#1b0063","on-secondary-fixed-variant":"#3f4759","on-error-container":"#93000a","surface-tint":"#104de7","secondary":"#565e71","outline":"#747687","primary-fixed-dim":"#b7c4ff","on-tertiary-fixed-variant":"#4612cf","secondary-fixed-dim":"#bfc6dc","surface-variant":"#d9e2fc","on-error":"#ffffff","on-surface":"#121b2e","inverse-on-surface":"#edf0ff","error":"#ba1a1a","on-primary-fixed-variant":"#0038b6","tertiary-container":"#7657ff","on-primary-container":"#fffdff","on-secondary":"#ffffff","tertiary-fixed":"#e6deff","on-surface-variant":"#434655","inverse-surface":"#273044","on-primary":"#ffffff","on-background":"#121b2e","on-primary-fixed":"#001552","surface-container-highest":"#d9e2fc","surface":"#f9f9ff","secondary-container":"#dbe2f9"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter":"1.5rem","gutter-sm":"1rem","space-lg":"1.5rem","margin-sm":"1rem","space-md":"1rem","space-sm":"0.5rem","space-xl":"2rem","space-xs":"0.25rem","margin":"2rem"},fontFamily:{"headline-lg":["Inter"],"headline-md":["Inter"],"mono-data":["Inter"],"headline-xl-mobile":["Inter"],"headline-xl":["Inter"],"display-hero":["Inter"],"body-sm":["Inter"],"headline-sm":["Inter"],"body-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"],"label-sm":["Inter"],"display-hero-mobile":["Inter"],"body-lg":["Inter"]},fontSize:{"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-md":["22px",{lineHeight:"30px",letterSpacing:"-0.015em",fontWeight:"600"}],"mono-data":["13px",{lineHeight:"18px",letterSpacing:"-0.01em",fontWeight:"500"}],"headline-xl-mobile":["26px",{lineHeight:"34px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-xl":["36px",{lineHeight:"44px",letterSpacing:"-0.025em",fontWeight:"700"}],"display-hero":["48px",{lineHeight:"56px",letterSpacing:"-0.03em",fontWeight:"800"}],"body-sm":["12px",{lineHeight:"18px",letterSpacing:"0em",fontWeight:"400"}],"headline-sm":["18px",{lineHeight:"26px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",letterSpacing:"0em",fontWeight:"400"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.005em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.01em",fontWeight:"600"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"700"}],"display-hero-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"800"}],"body-lg":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-on-primary"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between py-6"><div class="flex flex-col gap-6"><div class="px-6 flex items-center gap-3"><img alt="EVENTKU Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WBqW3eKXSgzqS_HoiMpan8qw2DIhzXDjlBIoGMXS4q8zg2wnx_PndevqD3POgLAA4XsoGfmxiIcbr5ZTgC2DDksuaWyE8wx3-mkRSYFm7WeS1aPi9kCBmVMKwdhnO-lOhdOI-fEDy8gY1ydgxZdTeBK4rgmPVONUaN-saoBSknrlKjY68-WmUhhN0Le2USEAEOozvN2M-pXTZoiNnMAg0TwnikUKb2-dbkXf8PA9SUp0NbY6b76dme6CKe"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary font-bold leading-none">EVENTKU</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-tight tracking-wider uppercase">Organizer Hub</span></div></div><div class="px-4"><div class="px-3 py-2 rounded-lg bg-surface-container-low flex items-center justify-between"><div class="flex items-center gap-2 overflow-hidden"><span class="material-symbols-outlined text-[20px] text-primary">festival</span><span class="font-label-md text-label-md text-on-surface truncate">Pesta Musik Nusantara</span></div><span class="material-symbols-outlined text-[16px] text-on-surface-variant">unfold_more</span></div></div><nav class="flex flex-col gap-1 px-3" data-active-classes="bg-primary-container text-on-primary-container font-label-lg font-bold"><a aria-current="page" class="flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors bg-primary-container text-on-primary-container font-label-lg font-bold" data-path="ringkasan" href="#"><span class="material-symbols-outlined text-[20px]">space_dashboard</span><span>Ringkasan</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-lg text-label-lg" data-path="event-saya" href="#"><span class="material-symbols-outlined text-[20px]">event_available</span><span>Event Saya</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-lg text-label-lg" data-path="buat-event" href="#"><span class="material-symbols-outlined text-[20px]">add_circle</span><span>Buat Event</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-lg text-label-lg" data-path="kelola-tiket" href="#"><span class="material-symbols-outlined text-[20px]">confirmation_number</span><span>Kelola Tiket</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-lg text-label-lg" data-path="pendaftaran" href="#"><span class="material-symbols-outlined text-[20px]">how_to_reg</span><span>Pendaftaran</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-lg text-label-lg" data-path="qr-check-in" href="#"><span class="material-symbols-outlined text-[20px]">qr_code_scanner</span><span>QR Check-in</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-lg text-label-lg" data-path="laporan-analitik" href="#"><span class="material-symbols-outlined text-[20px]">insights</span><span>Laporan Analitik</span></a></nav></div><div class="flex flex-col gap-1 px-3"><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-lg text-label-lg" data-path="pengaturan" href="#"><span class="material-symbols-outlined text-[20px]">settings</span><span>Pengaturan</span></a><div class="mt-2 pt-3 px-3 flex items-center justify-between bg-surface-container-low rounded-lg p-2"><div class="flex items-center gap-2 overflow-hidden"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[16px]">person</span></div><div class="flex flex-col truncate"><span class="font-label-md text-label-md text-on-surface truncate">Raka Pratama</span><span class="font-body-sm text-body-sm text-on-surface-variant truncate">Promoter Pro</span></div></div><a class="text-on-surface-variant hover:text-error transition-colors" data-path="masuk-daftar" href="#"><span class="material-symbols-outlined text-[18px]">logout</span></a></div></div></aside><div class="pl-64"><header class="fixed top-0 left-64 right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-3"><div class="flex items-center gap-2 px-space-md py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant w-72"><span class="material-symbols-outlined text-[18px]">search</span><input class="bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none w-full" placeholder="Cari pesanan, pembeli, sesi..." type="text"/></div></div><div class="flex items-center gap-3"><button class="relative p-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-primary"></span></button><button class="p-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">help_outline</span></button><a class="inline-flex items-center gap-1.5 px-space-md py-space-xs rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md shadow-[0_2px_8px_rgba(56,103,255,0.28)] transition-all" data-path="buat-event" href="#"><span class="material-symbols-outlined text-[18px]">add</span><span>Event Baru</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="relative pt-16 bg-surface min-h-screen px-space-lg py-space-lg"><div class="flex flex-col w-full gap-space-lg">
+<!-- Top Welcome & Status Banner -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2.5 flex-wrap">
+<h1 class="font-headline-lg text-headline-lg text-on-surface">Halo, Studio TechNusantara 👋</h1>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+          Penyelenggara Terverifikasi
+        </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Kelola event, pantau laju registrasi peserta, dan akses pemindaian QR tiket secara langsung hari ini.
+      </p>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<button class="inline-flex items-center gap-2 px-space-md py-2 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container font-label-md text-label-md transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+<span>Filter Tampilan</span>
+</button>
+<a class="inline-flex items-center gap-2 px-space-md py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md shadow-[0_2px_8px_rgba(56,103,255,0.28)] transition-all" data-path="buat-event" href="#">
+<span class="material-symbols-outlined text-[18px]">add_circle</span>
+<span>+ Buat Event Baru</span>
+</a>
+</div>
+</div>
+<!-- 5 Stat Cards Bar -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-space-md">
+<!-- Card 1 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Total Event</span>
+<div class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">festival</span>
+</div>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-on-surface">8 <span class="font-body-md text-body-md text-on-surface-variant font-normal">Event</span></div>
+<div class="flex items-center gap-1.5 mt-1 font-body-sm text-body-sm text-on-surface-variant">
+<span class="font-label-sm text-primary">3 Aktif</span>
+<span>•</span>
+<span>4 Selesai</span>
+<span>•</span>
+<span class="text-outline">1 Draft</span>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Total Pendaftar</span>
+<div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">group</span>
+</div>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-on-surface">2,840</div>
+<div class="flex items-center gap-1 mt-1 font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+<span>+18.4%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-normal">vs bulan lalu</span>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Tiket Terbit</span>
+<div class="w-8 h-8 rounded-lg bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[18px]">confirmation_number</span>
+</div>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-on-surface">2,840</div>
+<div class="flex items-center gap-1 mt-1 font-body-sm text-body-sm text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-primary inline-block"></span>
+<span class="font-label-sm text-on-surface">100%</span>
+<span>Kuota Terisi Penuh</span>
+</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Telah Check-in</span>
+<div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">qr_code_scanner</span>
+</div>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-on-surface">1,920</div>
+<div class="flex items-center gap-1 mt-1 font-body-sm text-body-sm text-on-surface-variant">
+<span class="font-label-sm text-primary">67.6%</span>
+<span>check-in rate realtime</span>
+</div>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Rating Penyelenggara</span>
+<div class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-lg text-headline-lg text-on-surface">4.9</span>
+<span class="font-body-md text-body-md text-on-surface-variant">/ 5.0</span>
+</div>
+<div class="flex items-center gap-1 mt-1 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">thumb_up</span>
+<span>450 ulasan peserta</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Analytics & Registration Charts Section -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Daily Registration Chart Card (8 cols) -->
+<div class="lg:col-span-8 flex flex-col p-space-lg rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center justify-between pb-space-md">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Tren Pendaftaran Harian</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Laju reservasi tiket 7 hari terakhir menunjukkan akselerasi tinggi</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+            Minggu Berjalan
+          </span>
+</div>
+</div>
+<!-- Area Chart SVG -->
+<div class="relative w-full h-56 pt-2">
+<svg class="w-full h-full overflow-visible" preserveaspectratio="none" viewbox="0 0 680 180">
+<defs>
+<lineargradient id="chartGradient" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#094be5" stop-opacity="0.32"></stop>
+<stop offset="100%" stop-color="#094be5" stop-opacity="0.0"></stop>
+</lineargradient>
+</defs>
+<!-- Grid lines -->
+<line stroke="#e9edff" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="680" y1="30" y2="30"></line>
+<line stroke="#e9edff" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="680" y1="80" y2="80"></line>
+<line stroke="#e9edff" stroke-dasharray="4 4" stroke-width="1" x1="0" x2="680" y1="130" y2="130"></line>
+<!-- Filled Area -->
+<polygon fill="url(#chartGradient)" points="20,150 110,135 210,110 320,118 430,70 540,45 660,20 660,170 20,170"></polygon>
+<!-- Stroke Path -->
+<polyline fill="none" points="20,150 110,135 210,110 320,118 430,70 540,45 660,20" stroke="#094be5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></polyline>
+<!-- Data Points -->
+<circle cx="20" cy="150" fill="#ffffff" r="4" stroke="#094be5" stroke-width="2.5"></circle>
+<circle cx="110" cy="135" fill="#ffffff" r="4" stroke="#094be5" stroke-width="2.5"></circle>
+<circle cx="210" cy="110" fill="#ffffff" r="4" stroke="#094be5" stroke-width="2.5"></circle>
+<circle cx="320" cy="118" fill="#ffffff" r="4" stroke="#094be5" stroke-width="2.5"></circle>
+<circle cx="430" cy="70" fill="#ffffff" r="4" stroke="#094be5" stroke-width="2.5"></circle>
+<circle cx="540" cy="45" fill="#ffffff" r="4" stroke="#094be5" stroke-width="2.5"></circle>
+<circle cx="660" cy="20" fill="#094be5" r="5" stroke="#ffffff" stroke-width="2"></circle>
+</svg>
+<!-- Tooltip on peak -->
+<div class="absolute top-2 right-4 -translate-y-2 bg-on-surface text-surface-container-lowest px-2.5 py-1 rounded shadow-md font-mono-data text-mono-data text-center pointer-events-none">
+<span class="block text-[11px] opacity-75">Hari Ini</span>
+<span class="font-bold">+640 Pendaftar</span>
+</div>
+</div>
+<!-- X-axis Days -->
+<div class="flex items-center justify-between font-label-md text-label-md text-on-surface-variant pt-3">
+<span>Sen</span>
+<span>Sel</span>
+<span>Rab</span>
+<span>Kam</span>
+<span>Jum</span>
+<span>Sab</span>
+<span class="text-primary font-bold">Min (Hari Ini)</span>
+</div>
+</div>
+<!-- Category Distribution Card (4 cols) -->
+<div class="lg:col-span-4 flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-lowest shadow-sm">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Distribusi Peserta</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Latar belakang profesional pembeli tiket</p>
+</div>
+<div class="flex items-center justify-center my-4 relative">
+<svg class="w-40 h-40 transform -rotate-90" viewbox="0 0 100 100">
+<!-- Background track -->
+<circle cx="50" cy="50" fill="transparent" r="38" stroke="#e9edff" stroke-width="12"></circle>
+<!-- Developer (45%) -> stroke-dasharray = 45 * 2.387 = 107.4, remainder 131.3 -->
+<circle cx="50" cy="50" fill="transparent" r="38" stroke="#094be5" stroke-dasharray="107.4 131.3" stroke-dashoffset="0" stroke-width="12"></circle>
+<!-- Designer (30%) -> stroke-dasharray = 30 * 2.387 = 71.6 -->
+<circle cx="50" cy="50" fill="transparent" r="38" stroke="#5d39e5" stroke-dasharray="71.6 167.1" stroke-dashoffset="-107.4" stroke-width="12"></circle>
+<!-- Startup Founder (25%) -> stroke-dasharray = 25 * 2.387 = 59.7 -->
+<circle cx="50" cy="50" fill="transparent" r="38" stroke="#3867ff" stroke-dasharray="59.7 179" stroke-dashoffset="-179" stroke-width="12"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="font-headline-md text-headline-md text-on-surface font-bold leading-none">2,840</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Total Terdaftar</span>
+</div>
+</div>
+<!-- Legend -->
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary shrink-0"></span>
+<span class="font-body-sm text-body-sm text-on-surface">Software Developer</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">45% (1,278)</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-tertiary shrink-0"></span>
+<span class="font-body-sm text-body-sm text-on-surface">UI/UX Designer</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">30% (852)</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary-container shrink-0"></span>
+<span class="font-body-sm text-body-sm text-on-surface">Startup Founder</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">25% (710)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Event List Table & Quick Access Layout -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-lg">
+<!-- Active & Recent Events Table (9 cols) -->
+<div class="xl:col-span-9 flex flex-col p-space-lg rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-space-md">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Event yang Sedang Berjalan & Terbaru</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pantau status pendaftaran, batas kuota, dan check-in gate realtime</p>
+</div>
+<div class="flex items-center gap-2">
+<a class="font-label-md text-label-md text-primary hover:underline flex items-center gap-1" data-path="event-saya" href="#">
+<span>Lihat Semua Event</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Responsive Table Container -->
+<div class="overflow-x-auto -mx-space-lg px-space-lg">
+<table class="w-full text-left min-w-[720px]">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-md text-label-md">
+<th class="py-3 px-4 rounded-l-lg">Nama Event</th>
+<th class="py-3 px-4">Tanggal & Lokasi</th>
+<th class="py-3 px-4">Status</th>
+<th class="py-3 px-4">Kuota Terisi</th>
+<th class="py-3 px-4">Check-in</th>
+<th class="py-3 px-4 text-right rounded-r-lg">Aksi</th>
+</tr>
+</thead>
+<tbody class="divide-y-0">
+<!-- Row 1: Indonesia Tech Summit 2025 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<img class="w-12 h-12 rounded-lg object-cover shrink-0" data-alt="Futuristic auditorium stage with neon blue digital displays in Jakarta, presenting Indonesia Tech Summit 2025 with lively audience, crisp architectural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4oARi4N9mwkMxCswf2Nxqg0SLZsKHs1zIkV_Z_ID4ccMJfeuiEA8aG7xBkK4NICo135GEeW4TEMEWOm_1pNofmIgCWdWh9iDDBxFc16BJsf5H4_6x_o7AQ-9I0uqxGyKbGO-Df5S4rV87PSTJUL8hniuDCqpkyPkpXT6ameFUqbuuDJ0XXxLv_rJdXSG_HTc0Sf3KlMnWcYokZgeQrqrejywB022W5ymuH1HuFBZVSs7DRQVbhio3IA"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate font-semibold">Indonesia Tech Summit 2025</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ID: EVT-ITS-091</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">15 Nov 2025</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">JCC Senayan, Jakarta</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                  Dipublikasikan
+                </span>
+</td>
+<td class="py-4 px-4">
+<div class="flex flex-col gap-1 w-28">
+<div class="flex justify-between font-mono-data text-mono-data text-on-surface">
+<span>490/500</span>
+<span class="font-bold text-primary">98%</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 98%;"></div>
+</div>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-1.5 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-primary">check_circle</span>
+<span>340 Hadir</span>
+</div>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="relative inline-block text-left group">
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+<div class="hidden group-hover:block absolute right-0 top-full mt-1 w-44 rounded-xl bg-surface-container-lowest shadow-xl z-20 py-2">
+<a class="flex items-center gap-2 px-3 py-1.5 font-label-md text-label-md text-on-surface hover:bg-surface-container-low transition-colors" data-path="kelola-tiket" href="#">
+<span class="material-symbols-outlined text-[16px]">confirmation_number</span>
+<span>Kelola Tiket</span>
+</a>
+<a class="flex items-center gap-2 px-3 py-1.5 font-label-md text-label-md text-on-surface hover:bg-surface-container-low transition-colors" data-path="qr-check-in" href="#">
+<span class="material-symbols-outlined text-[16px]">qr_code_scanner</span>
+<span>Buka QR Scanner</span>
+</a>
+<a class="flex items-center gap-2 px-3 py-1.5 font-label-md text-label-md text-on-surface hover:bg-surface-container-low transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span>Export Data</span>
+</a>
+<a class="flex items-center gap-2 px-3 py-1.5 font-label-md text-label-md text-on-surface hover:bg-surface-container-low transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+<span>Edit Event</span>
+</a>
+</div>
+</div>
+</td>
+</tr>
+<!-- Row 2: Workshop AI Engineering -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<img class="w-12 h-12 rounded-lg object-cover shrink-0" data-alt="Hands-on machine learning workshop with engineers coding on laptops with vibrant ambient purple and electric blue lighting in co-working space" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkNHUmaSVkeiFyKvQpfeSDBr9YtvcCFwJIwoHBdXD9OwvytlwiAnbPW1RTj1UNFlb1LYTj5gGCxDCLBbVSvMFHH3SN9Mo8zkVsdYG2f5Rtn2nc8jmbH8pJRTkgmb3me0j8qa0HX-VPlhxpNMBX46U740L83xM4H4sL5RZdToSddjqSNZrr9DjqZODTtYgLOnmWZzB_0NE2r-ffpha7x7xhvgrCMAFmlSa17m6o8d0zOHEeTWmVotfUjg"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate font-semibold">Workshop AI Engineering</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ID: EVT-WAI-204</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">28 Nov 2025</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Block71, Kuningan</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                  Dipublikasikan
+                </span>
+</td>
+<td class="py-4 px-4">
+<div class="flex flex-col gap-1 w-28">
+<div class="flex justify-between font-mono-data text-mono-data text-on-surface">
+<span>150/150</span>
+<span class="font-bold text-tertiary">Penuh</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-tertiary rounded-full" style="width: 100%;"></div>
+</div>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-1.5 font-label-md text-label-md text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>Menunggu Hari-H</span>
+</div>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="relative inline-block text-left group">
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+<div class="hidden group-hover:block absolute right-0 top-full mt-1 w-44 rounded-xl bg-surface-container-lowest shadow-xl z-20 py-2">
+<a class="flex items-center gap-2 px-3 py-1.5 font-label-md text-label-md text-on-surface hover:bg-surface-container-low transition-colors" data-path="kelola-tiket" href="#">
+<span class="material-symbols-outlined text-[16px]">confirmation_number</span>
+<span>Kelola Tiket</span>
+</a>
+<a class="flex items-center gap-2 px-3 py-1.5 font-label-md text-label-md text-on-surface hover:bg-surface-container-low transition-colors" data-path="qr-check-in" href="#">
+<span class="material-symbols-outlined text-[16px]">qr_code_scanner</span>
+<span>Buka QR Scanner</span>
+</a>
+<a class="flex items-center gap-2 px-3 py-1.5 font-label-md text-label-md text-on-surface hover:bg-surface-container-low transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span>Export Data</span>
+</a>
+</div>
+</div>
+</td>
+</tr>
+<!-- Row 3: DevOps & Cloud Bootcamp 2025 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<img class="w-12 h-12 rounded-lg object-cover shrink-0" data-alt="Modern server rack datacenter with glowing network nodes and engineers supervising dashboard screen, high tech Indonesian cloud event" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCC_wMIzSq3qqP6kxBHYsLUswghabgoJDQcYI-QdFoma36WtGD-PY4QZYAxtiS4AJ8ib0ceIc4lojeeVouHY-l32RpM7OPHO9hazaE9KZF0aTViCq6DOYthvmTGUfU9s9x95xFQMMJYedadpUrgqXt8a8G0gbjoS1TgUnAqIrU2bZTSG4HQPvITYsHScCpZ1xLOF1idF1q7j6PTnDZKVPMkUOZKFnPan3qljz3hrqCIq4R4p7JbS_JvUg"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate font-semibold">DevOps & Cloud Bootcamp 2025</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ID: EVT-CLD-308</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">10 Des 2025</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Grand Ballroom, Bandung</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-high text-on-secondary-fixed-variant font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                  Review Admin
+                </span>
+</td>
+<td class="py-4 px-4">
+<div class="flex flex-col gap-1 w-28">
+<div class="flex justify-between font-mono-data text-mono-data text-on-surface-variant">
+<span>0/300</span>
+<span>0%</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full bg-outline-variant rounded-full" style="width: 0%;"></div>
+</div>
+</div>
+</td>
+<td class="py-4 px-4">
+<span class="font-body-sm text-body-sm text-on-surface-variant">-</span>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="relative inline-block text-left group">
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+<div class="hidden group-hover:block absolute right-0 top-full mt-1 w-44 rounded-xl bg-surface-container-lowest shadow-xl z-20 py-2">
+<a class="flex items-center gap-2 px-3 py-1.5 font-label-md text-label-md text-on-surface hover:bg-surface-container-low transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>Pratinjau Halaman</span>
+</a>
+<a class="flex items-center gap-2 px-3 py-1.5 font-label-md text-label-md text-on-surface hover:bg-surface-container-low transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+<span>Edit Rincian</span>
+</a>
+</div>
+</div>
+</td>
+</tr>
+<!-- Row 4: Meetup Komunitas Flutter ID -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-4 px-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant shrink-0">
+<span class="material-symbols-outlined text-[24px]">drafts</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate font-semibold">Meetup Komunitas Flutter ID</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ID: EVT-FLT-412</span>
+</div>
+</div>
+</td>
+<td class="py-4 px-4">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">20 Des 2025</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Kopi Kenangan Heritage, Jkt</span>
+</div>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+                  Draft
+                </span>
+</td>
+<td class="py-4 px-4">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Belum dibuka</span>
+</td>
+<td class="py-4 px-4">
+<span class="font-body-sm text-body-sm text-on-surface-variant">-</span>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="relative inline-block text-left group">
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+<div class="hidden group-hover:block absolute right-0 top-full mt-1 w-44 rounded-xl bg-surface-container-lowest shadow-xl z-20 py-2">
+<a class="flex items-center gap-2 px-3 py-1.5 font-label-md text-label-md text-on-surface hover:bg-surface-container-low transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+<span>Lanjutkan Draft</span>
+</a>
+<a class="flex items-center gap-2 px-3 py-1.5 font-label-md text-label-md text-error hover:bg-error-container/40 transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">delete</span>
+<span>Hapus Draft</span>
+</a>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Quick Access Shortcut Panel (3 cols) -->
+<div class="xl:col-span-3 flex flex-col gap-space-md">
+<!-- Shortcut 1: QR Scanner Action Hero Card -->
+<div class="p-space-lg rounded-xl bg-primary text-on-primary shadow-md flex flex-col justify-between gap-4">
+<div>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-on-primary/20 text-on-primary font-label-sm text-label-sm font-semibold uppercase tracking-wider">
+            Fast Gate Check-in
+          </span>
+<h3 class="font-headline-sm text-headline-sm text-on-primary mt-2">Mulai Scanner Hari Ini</h3>
+<p class="font-body-sm text-body-sm text-on-primary/80 mt-1">
+            Buka kamera ponsel atau hubungkan barcode scanner USB untuk validasi tiket peserta di pintu gerbang.
+          </p>
+</div>
+<a class="inline-flex items-center justify-center gap-2 px-space-md py-2.5 rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md hover:bg-surface-container-low transition-colors shadow-sm" data-path="qr-check-in" href="#">
+<span class="material-symbols-outlined text-[20px]">qr_code_scanner</span>
+<span>Buka Scanner Kamera</span>
+</a>
+</div>
+<!-- Shortcut 2: Download Recap -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[22px]">table_view</span>
+</div>
+<div class="flex flex-col gap-2 min-w-0 flex-1">
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Unduh Rekap Peserta</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Format CSV/Excel kompatibel</p>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-2.5 py-1 rounded bg-surface-container text-primary font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" type="button">
+              CSV (UTF-8)
+            </button>
+<button class="px-2.5 py-1 rounded bg-surface-container text-primary font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" type="button">
+              Excel (.xlsx)
+            </button>
+</div>
+</div>
+</div>
+<!-- Shortcut 3: Guidelines -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-3">
+<div class="w-10 h-10 rounded-lg bg-tertiary-fixed flex items-center justify-center text-tertiary shrink-0">
+<span class="material-symbols-outlined text-[22px]">verified_user</span>
+</div>
+<div class="flex flex-col gap-1 min-w-0 flex-1">
+<h4 class="font-label-lg text-label-lg text-on-surface">Panduan Standar Operasional</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">SOP verifikasi gerbang, kebijakan refund tiket, dan panduan mitigasi jaringan luring.</p>
+<a class="inline-flex items-center gap-1 font-label-sm text-label-sm text-tertiary hover:underline mt-1 font-semibold" href="#">
+<span>Baca Dokumen Panduan</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Live Server / Gate Sync Status Card -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<span class="w-2.5 h-2.5 rounded-full bg-primary animate-ping"></span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Sinkronisasi Cloud Aktif</span>
+<span class="font-mono-data text-[11px] text-on-surface-variant">Latensi: 42ms (JKT-01)</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary text-[20px]">cloud_done</span>
+</div>
+</div>
+</div>
+</div></main></div></body></html>

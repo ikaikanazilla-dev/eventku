@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-low":"#f1f3ff","inverse-primary":"#b7c4ff","error-container":"#ffdad6","surface-container-high":"#e1e8ff","surface-container-lowest":"#ffffff","secondary-fixed":"#dbe2f9","primary-container":"#3867ff","on-tertiary":"#ffffff","surface-bright":"#f9f9ff","background":"#f9f9ff","primary-fixed":"#dde1ff","on-secondary-fixed":"#141b2c","primary":"#094be5","outline-variant":"#c3c5d8","tertiary-fixed-dim":"#c9beff","on-tertiary-container":"#fffdff","surface-dim":"#d1daf4","surface-container":"#e9edff","tertiary":"#5d39e5","on-secondary-container":"#5c6477","on-tertiary-fixed":"#1b0063","on-secondary-fixed-variant":"#3f4759","on-error-container":"#93000a","surface-tint":"#104de7","secondary":"#565e71","outline":"#747687","primary-fixed-dim":"#b7c4ff","on-tertiary-fixed-variant":"#4612cf","secondary-fixed-dim":"#bfc6dc","surface-variant":"#d9e2fc","on-error":"#ffffff","on-surface":"#121b2e","inverse-on-surface":"#edf0ff","error":"#ba1a1a","on-primary-fixed-variant":"#0038b6","tertiary-container":"#7657ff","on-primary-container":"#fffdff","on-secondary":"#ffffff","tertiary-fixed":"#e6deff","on-surface-variant":"#434655","inverse-surface":"#273044","on-primary":"#ffffff","on-background":"#121b2e","on-primary-fixed":"#001552","surface-container-highest":"#d9e2fc","surface":"#f9f9ff","secondary-container":"#dbe2f9"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter":"1.5rem","gutter-sm":"1rem","space-lg":"1.5rem","margin-sm":"1rem","space-md":"1rem","space-sm":"0.5rem","space-xl":"2rem","space-xs":"0.25rem","margin":"2rem"},fontFamily:{"headline-lg":["Inter"],"headline-md":["Inter"],"mono-data":["Inter"],"headline-xl-mobile":["Inter"],"headline-xl":["Inter"],"display-hero":["Inter"],"body-sm":["Inter"],"headline-sm":["Inter"],"body-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"],"label-sm":["Inter"],"display-hero-mobile":["Inter"],"body-lg":["Inter"]},fontSize:{"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-md":["22px",{lineHeight:"30px",letterSpacing:"-0.015em",fontWeight:"600"}],"mono-data":["13px",{lineHeight:"18px",letterSpacing:"-0.01em",fontWeight:"500"}],"headline-xl-mobile":["26px",{lineHeight:"34px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-xl":["36px",{lineHeight:"44px",letterSpacing:"-0.025em",fontWeight:"700"}],"display-hero":["48px",{lineHeight:"56px",letterSpacing:"-0.03em",fontWeight:"800"}],"body-sm":["12px",{lineHeight:"18px",letterSpacing:"0em",fontWeight:"400"}],"headline-sm":["18px",{lineHeight:"26px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",letterSpacing:"0em",fontWeight:"400"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.005em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.01em",fontWeight:"600"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"700"}],"display-hero-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"800"}],"body-lg":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-on-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1360px] mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-8"><a class="flex items-center gap-3" data-path="beranda" href="#"><img alt="EVENTKU Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WBqW3eKXSgzqS_HoiMpan8qw2DIhzXDjlBIoGMXS4q8zg2wnx_PndevqD3POgLAA4XsoGfmxiIcbr5ZTgC2DDksuaWyE8wx3-mkRSYFm7WeS1aPi9kCBmVMKwdhnO-lOhdOI-fEDy8gY1ydgxZdTeBK4rgmPVONUaN-saoBSknrlKjY68-WmUhhN0Le2USEAEOozvN2M-pXTZoiNnMAg0TwnikUKb2-dbkXf8PA9SUp0NbY6b76dme6CKe"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">EVENTKU</span></a><nav class="hidden lg:flex items-center gap-6" data-active-classes="text-primary font-label-lg font-bold"><a aria-current="page" class="transition-colors text-primary font-label-lg font-bold" data-path="beranda" href="#">Beranda</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="jelajahi-event" href="#">Jelajahi Event</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kategori" href="#">Kategori</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="tentang-kami" href="#">Tentang Kami</a></nav></div><div class="flex items-center gap-3"><a class="hidden sm:flex items-center gap-2 px-space-md py-space-xs rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md" data-path="tiket-saya" href="#"><span class="material-symbols-outlined text-[18px] text-primary">confirmation_number</span><span>Tiket Saya</span></a><a class="inline-flex items-center justify-center px-space-md py-space-xs rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-all shadow-[0_2px_8px_rgba(56,103,255,0.28)]" data-path="masuk-daftar" href="#">Masuk / Daftar</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-16rem)]"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-surface via-surface-container-low/40 to-surface pt-12 pb-20 lg:pt-16 lg:pb-28">
+<!-- Ambient Glow Circles -->
+<div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
+<div class="absolute top-20 right-0 w-[30rem] h-[30rem] rounded-full bg-tertiary/10 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1360px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Hero Text & Search Trigger -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg relative z-10">
+<!-- Tagline Pill -->
+<div class="inline-flex items-center gap-2 px-space-md py-1.5 rounded-full bg-surface-container-high w-fit shadow-sm">
+<span class="inline-block w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Platform Event Digital #1 di Indonesia</span>
+</div>
+<!-- Main Headline -->
+<div class="flex flex-col gap-2">
+<h1 class="font-display-hero text-display-hero-mobile md:text-display-hero text-on-surface tracking-tight leading-tight">
+              Temukan Event Seru. <br/>
+<span class="bg-gradient-to-r from-primary via-primary-container to-tertiary bg-clip-text text-transparent">
+                Buat Kenangan
+              </span> Tak Terlupakan.
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+              Cari event inspiratif, ikuti komunitas hebat, dan dapatkan tiket digitalmu dalam hitungan detik. Tanpa biaya tersembunyi, langsung masuk dengan QR instan.
+            </p>
+</div>
+<!-- Interactive Search Container -->
+<div class="w-full bg-surface-container-lowest p-3 sm:p-4 rounded-xl shadow-xl flex flex-col gap-3">
+<div class="grid grid-cols-1 sm:grid-cols-12 gap-3 items-center">
+<!-- Event Name Search -->
+<div class="sm:col-span-5 flex items-center gap-3 px-3.5 py-2.5 rounded-lg bg-surface-container-low focus-within:bg-surface-container-lowest focus-within:shadow-sm transition-all">
+<span class="material-symbols-outlined text-[20px] text-primary">search</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" id="searchKeyword" placeholder="Cari event, artis, atau topik..." type="text"/>
+</div>
+<!-- Category Dropdown -->
+<div class="sm:col-span-3 flex items-center gap-2 px-3 py-2.5 rounded-lg bg-surface-container-low relative">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">category</span>
+<select class="w-full bg-transparent font-label-md text-label-md text-on-surface focus:outline-none cursor-pointer appearance-none pr-4" id="searchCategory">
+<option value="all">Semua Kategori</option>
+<option value="tech">Teknologi & AI</option>
+<option value="design">Desain & Kreatif</option>
+<option value="music">Konser Musik</option>
+<option value="business">Bisnis & Startup</option>
+</select>
+<span class="material-symbols-outlined text-[18px] text-outline pointer-events-none absolute right-3">expand_more</span>
+</div>
+<!-- Location Filter -->
+<div class="sm:col-span-4 flex items-center gap-2 px-3 py-2.5 rounded-lg bg-surface-container-low relative">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">location_on</span>
+<select class="w-full bg-transparent font-label-md text-label-md text-on-surface focus:outline-none cursor-pointer appearance-none pr-4" id="searchLocation">
+<option value="jkt">Jakarta & Sekitarnya</option>
+<option value="online">Online / Hybrid</option>
+<option value="bdg">Bandung</option>
+<option value="sby">Surabaya</option>
+</select>
+<span class="material-symbols-outlined text-[18px] text-outline pointer-events-none absolute right-3">expand_more</span>
+</div>
+</div>
+<!-- Action Row -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-3 pt-1">
+<div class="flex items-center gap-2 w-full sm:w-auto">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Populer:</span>
+<div class="flex flex-wrap gap-1.5">
+<button class="px-2.5 py-1 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors" onclick="quickFilter('AI')" type="button">AI</button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors" onclick="quickFilter('Konser')" type="button">Konser</button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors" onclick="quickFilter('Workshop')" type="button">Workshop</button>
+</div>
+</div>
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-space-lg py-2.5 bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg rounded-lg shadow-md transition-all active:scale-[0.98]" id="btnSearchHero" type="button">
+<span class="material-symbols-outlined text-[20px]">explore</span>
+<span>Cari Event Sekarang</span>
+</button>
+</div>
+</div>
+<!-- Category Fast Access Chips -->
+<div class="flex flex-wrap items-center gap-2 pt-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Kategori Unggulan:</span>
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface transition-all text-label-md font-label-md shadow-sm" href="#event-list">
+<span class="material-symbols-outlined text-[16px] text-primary">memory</span> Teknologi & AI
+            </a>
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface transition-all text-label-md font-label-md shadow-sm" href="#event-list">
+<span class="material-symbols-outlined text-[16px] text-tertiary">music_note</span> Musik & Festival
+            </a>
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface transition-all text-label-md font-label-md shadow-sm" href="#event-list">
+<span class="material-symbols-outlined text-[16px] text-primary">palette</span> Desain Kreatif
+            </a>
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface transition-all text-label-md font-label-md shadow-sm" href="#event-list">
+<span class="material-symbols-outlined text-[16px] text-secondary">trending_up</span> Startup Bisnis
+            </a>
+</div>
+<!-- Metric Highlights Bar -->
+<div class="grid grid-cols-3 gap-space-md pt-space-md max-w-lg">
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg text-primary font-bold">500+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Event Aktif Bulanan</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg text-tertiary font-bold">120K+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tiket Digital Terbit</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg text-on-surface font-bold">98.9%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kepuasan Pengunjung</span>
+</div>
+</div>
+</div>
+<!-- Hero Visual Showcase (Layered Digital Ticket + Event Poster) -->
+<div class="lg:col-span-5 relative mt-8 lg:mt-0 flex justify-center lg:justify-end">
+<div class="relative w-full max-w-[420px]">
+<!-- Decorative Backing Drop Card -->
+<div class="absolute -top-4 -right-4 w-full h-full rounded-2xl bg-surface-container-high rotate-3 shadow-md -z-10"></div>
+<!-- Main Hero Card: Showcase Ticket -->
+<div class="w-full bg-surface-container-lowest rounded-2xl shadow-xl overflow-hidden flex flex-col relative transition-transform hover:-translate-y-1 duration-300">
+<!-- Event Visual Banner -->
+<div class="relative h-56 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Futuristic Indonesian technology conference stage with neon indigo lighting, keynote speaker silhouette, holographic audience displays, high tech auditorium in Jakarta, cinematic professional photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBi42Bi549SekiPB1mf_vcQ1nJRFzMQuotHEiJ4i19DPjxchBgOMDOBc-ittVARlOkMPxXdGqGj5uCE2vTM-i6vwudSx8jLEdBvfDanVOIKJxwMCNpIf6IFWkNg8BL2a9G8lR1uT44XfyDQ9tlL8utLkTpuppyzBo_86Ff3iyRy6kqBLJWZqPCwYop6cqmR6KT0BHs0xnl7sgKEM6eM1EOwS0siTdMdyOrf-c9kVEeEUrtOpYC5nkUTtA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-black/20"></div>
+<!-- Status Badge -->
+<div class="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="font-label-sm text-label-sm text-primary font-bold">HOT EVENT</span>
+</div>
+<div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm shadow">
+                  GRATIS MASUK
+                </div>
+<div class="absolute bottom-3 left-4 right-4 text-on-primary">
+<span class="font-mono-data text-mono-data text-inverse-primary">15 November 2025 • Hybrid</span>
+<h3 class="font-headline-sm text-headline-sm leading-tight text-on-primary">Indonesia Tech Summit 2025</h3>
+</div>
+</div>
+<!-- Ticket Notch Cutout Divider -->
+<div class="relative w-full bg-surface-container-lowest py-2 px-6 flex items-center justify-between">
+<!-- Left Inward Notch -->
+<div class="absolute -left-3 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-surface shadow-inner"></div>
+<!-- Dashed Line -->
+<div class="w-full border-b border-dashed border-outline-variant"></div>
+<!-- Right Inward Notch -->
+<div class="absolute -right-3 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-surface shadow-inner"></div>
+</div>
+<!-- Ticket Bottom Details -->
+<div class="p-5 flex items-center justify-between gap-4 bg-surface-container-lowest">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">location_on</span>
+<span>Jakarta Convention Center</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified</span>
+<span class="font-label-md text-label-md text-on-surface">TechNusantara Org</span>
+</div>
+<div class="mt-2 flex items-center gap-2">
+<div class="w-24 h-1.5 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[85%]"></div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sisa 35 Kuota</span>
+</div>
+</div>
+<!-- Live Mini QR Mockup -->
+<div class="flex flex-col items-center justify-center p-2 rounded-xl bg-surface-container-low shadow-sm">
+<div class="w-14 h-14 bg-surface-container-lowest rounded-lg p-1 flex items-center justify-center">
+<svg class="w-full h-full text-on-surface fill-current" viewbox="0 0 40 40">
+<path d="M4 4h12v12H4V4zm4 4v4h4V8H8zm16-4h12v12H24V4zm4 4v4h4V8h-4zM4 24h12v12H4V24zm4 4v4h4v-4H8zm16 4h4v4h-4v-4zm8-4h4v8h-4v-8zm-8-4h8v4h-8v-4zm8 0h4v4h-4v-4z"></path>
+</svg>
+</div>
+<span class="font-label-sm text-[10px] text-primary mt-1 font-bold">QR INSTAN</span>
+</div>
+</div>
+</div>
+<!-- Floating VIP Testimonial Mini Pill -->
+<div class="absolute -bottom-6 -left-6 bg-surface-container-lowest p-3 rounded-xl shadow-xl flex items-center gap-3 max-w-[240px] z-20">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">flash_on</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Tiket Siap < 5 Detik</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Tersimpan di Akun & WhatsApp</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- POPULAR & FEATURED EVENTS SECTION -->
+<section class="w-full py-16 bg-surface" id="event-list">
+<div class="max-w-[1360px] mx-auto px-margin">
+<!-- Section Header & Filter Tabs -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-10">
+<div class="flex flex-col gap-2">
+<div class="inline-flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Jelajahi Sekarang</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Event Pilihan Populer</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Temukan puluhan kegiatan bermanfaat di berbagai kota dengan pendaftaran instan.</p>
+</div>
+<!-- Filter Segmented Controller -->
+<div class="p-1 rounded-xl bg-surface-container-high flex flex-wrap items-center gap-1 shadow-inner">
+<button class="event-filter-btn px-4 py-2 rounded-lg font-label-md text-label-md bg-surface-container-lowest text-on-surface shadow-sm transition-all" data-category="all" type="button">Semua Event</button>
+<button class="event-filter-btn px-4 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" data-category="tech" type="button">Teknologi & AI</button>
+<button class="event-filter-btn px-4 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" data-category="design" type="button">Desain & Kreatif</button>
+<button class="event-filter-btn px-4 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" data-category="music" type="button">Musik & Seni</button>
+<button class="event-filter-btn px-4 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" data-category="business" type="button">Bisnis</button>
+</div>
+</div>
+<!-- 6 High-Fidelity Event Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="eventsGrid">
+<!-- Card 1: Indonesia Tech Summit -->
+<div class="event-item group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5" data-category="tech">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Keynote presentation at Indonesia AI and Deep Learning Summit with glowing cyan stage banners, large led projection wall, packed tech audience in business casual attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnu6fb3KW0H5q433ob8IrtJsFesUPWEPsw0j8fKdfhGC4SIicqkaHDB2X_IMyV9EKF5KJlg7Zr6hbSBdL83BCG6fDNQNwia0TwCEJZrOFw6SOK82eQ4KIiVoJQQrz8iiW8g_o-mIiSBX4FI_P5lcuZOCM5FplQPiEz9-1YpB9tbpaT4pUjvvDFFY6jrd4ZF9t39X6wunG9DzPHRwitcmF_FjHo2KAsQaqkR9MwWqd5vH_WuICPXdLrkQ"/>
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-sm text-label-sm text-primary font-bold">
+              GRATIS - Kuota Terbatas
+            </div>
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-lg bg-inverse-surface/80 text-inverse-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">sensors</span> Hybrid
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between text-on-surface-variant font-mono-data text-mono-data">
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]">calendar_month</span> 15 Nov 2025
+                </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 09:00 WIB
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                Indonesia Tech Summit 2025: Artificial Intelligence & Future Tech
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Eksplorasi tren generative AI, autonomous agent, dan komputasi awan bersama pemimpin industri terkemuka.
+              </p>
+</div>
+<div class="flex flex-col gap-3 pt-space-xs">
+<div class="flex items-center justify-between text-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-on-surface-variant truncate">
+<span class="material-symbols-outlined text-[16px] text-outline">location_on</span> JCC Senayan, Jakarta
+                </span>
+<span class="flex items-center gap-1 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> TechNusantara
+                </span>
+</div>
+<!-- Progress Bar -->
+<div class="w-full bg-surface-container-low rounded-full h-1.5 overflow-hidden">
+<div class="bg-primary h-full rounded-full w-[82%]"></div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Terisi 410 / 500 kursi</span>
+<button class="inline-flex items-center gap-1.5 px-space-md py-2 bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md rounded-lg transition-colors" onclick="openTicketModal('Indonesia Tech Summit 2025')" type="button">
+                  Lihat Detail
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 2: UI/UX Masterclass -->
+<div class="event-item group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5" data-category="design">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Design masterclass workshop with modern laptops displaying design system components, wireframes, creative digital designers collaborating around a wooden table in Jakarta co-working space" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbndHXhCEU3gA8emUm5d0ugECcPa1FzjOfUdtq4F7DzEoZiBjqSKcXJ3FaP9Soq2ppHBWKnziY3h0sBkbcfkEZ2aZ5_bazwoOhwgOvNaGU93TzYgtO8TrCK5V0GcUtnoXgsmBwIJdnFLB2Zb7avqFIxKXutGX_qDkOlXUHw8l0WBiQbUp45Fd2zPcByLKGRhdL4Z1wpsIqDCS709SwMiH06YtXctGm9G_aqWG3eEY7lcG3jbEOPVRhHw"/>
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-sm text-label-sm text-primary font-bold">
+              GRATIS
+            </div>
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-lg bg-inverse-surface/80 text-inverse-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">apartment</span> Offline
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between text-on-surface-variant font-mono-data text-mono-data">
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]">calendar_month</span> 22 Nov 2025
+                </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 13:00 WIB
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                UI/UX Masterclass & Design System Showcase
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Pelajari strategi merancang token arsitektur, micro-interactions, serta handoff developer yang efisien.
+              </p>
+</div>
+<div class="flex flex-col gap-3 pt-space-xs">
+<div class="flex items-center justify-between text-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-on-surface-variant truncate">
+<span class="material-symbols-outlined text-[16px] text-outline">location_on</span> Grand Sahid Jaya, JKT
+                </span>
+<span class="flex items-center gap-1 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> Studio Desain ID
+                </span>
+</div>
+<div class="w-full bg-surface-container-low rounded-full h-1.5 overflow-hidden">
+<div class="bg-primary h-full rounded-full w-[60%]"></div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Terisi 120 / 200 kursi</span>
+<button class="inline-flex items-center gap-1.5 px-space-md py-2 bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md rounded-lg transition-colors" onclick="openTicketModal('UI/UX Masterclass 2025')" type="button">
+                  Lihat Detail
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 3: Nusantara Sound Fest -->
+<div class="event-item group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5" data-category="music">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Vibrant outdoor music festival at dusk with dramatic violet and magenta stage lights, cheering crowd with hands raised, energetic indie band performing on stage in Senayan Park" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKJABb9KTwTjr_jjrGq6f73nwMrDHPCIziy27M985BG5H0nQGhNku2eLTmJxCxBin-DR5SuROudjFhEbHuo_mM7YQ97wh5N2QeigsAUXFkay9b9N9pGnG4JxsS9X_nL9Zdm0L49yZYYG_bcXR4wTuHM6PKeC2bK4ejrJxHp9bpKwjpeA2OnwBhw_Pv5FdmlWvZ9gxHJBkQJnNFx85ONUMe3nr19H-Tr59KjZk9VAeYif9I5uWezGZAIQ"/>
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm font-bold">
+              PRESALE 1
+            </div>
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-lg bg-inverse-surface/80 text-inverse-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">festival</span> Festival
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between text-on-surface-variant font-mono-data text-mono-data">
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]">calendar_month</span> 28 Nov 2025
+                </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 16:00 WIB
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                Nusantara Sound Fest: Indie Wave Experience
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Konser musik indie live menampilkan 12 band indie tanah air dengan tata suara surround imersif.
+              </p>
+</div>
+<div class="flex flex-col gap-3 pt-space-xs">
+<div class="flex items-center justify-between text-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-on-surface-variant truncate">
+<span class="material-symbols-outlined text-[16px] text-outline">location_on</span> Senayan Park, Jakarta
+                </span>
+<span class="flex items-center gap-1 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> Nada Harmoni
+                </span>
+</div>
+<div class="w-full bg-surface-container-low rounded-full h-1.5 overflow-hidden">
+<div class="bg-tertiary h-full rounded-full w-[95%]"></div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-error font-semibold">Hampir Habis!</span>
+<button class="inline-flex items-center gap-1.5 px-space-md py-2 bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md rounded-lg transition-colors" onclick="openTicketModal('Nusantara Sound Fest')" type="button">
+                  Lihat Detail
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 4: Startup Growth Conference -->
+<div class="event-item group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5" data-category="business">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern business conference hall in BSD Tangerang with corporate investors, founders on stage pitching, crisp architectural lighting, sleek business environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgWH8t4SGsTp8nXWpOPDa9iqHiGBHwVa8XfqajOhatCjNGyj9106uL6VnGHKseISi-cV6JRNv7eRPnHw6g__JlcDVnmjcnAsHsGyYPRAS33sasW9OtJHZkXqoH1xdoEirBI8FOZKqYQDqHWrLKnI_rYxzQNOFr3r0W1J9aPgegooHzGBKbPRPnAOq5fdOaa1JQiodGxARYPIBNHZ_pLxb5ND46LAKs9Inj7sNne2ExbbmtRyJsrwCs5A"/>
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-sm text-label-sm text-primary font-bold">
+              FREE PASS
+            </div>
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-lg bg-inverse-surface/80 text-inverse-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">business_center</span> Bisnis
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between text-on-surface-variant font-mono-data text-mono-data">
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]">calendar_month</span> 05 Des 2025
+                </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 10:00 WIB
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                Startup Growth Conference: Scale to Series A
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Wawasan fundraising dari Venture Capitalists, metrik traksi produk, dan sesi kurasi networking eksklusif.
+              </p>
+</div>
+<div class="flex flex-col gap-3 pt-space-xs">
+<div class="flex items-center justify-between text-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-on-surface-variant truncate">
+<span class="material-symbols-outlined text-[16px] text-outline">location_on</span> BSD GOP, Tangerang
+                </span>
+<span class="flex items-center gap-1 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> VenturKu Hub
+                </span>
+</div>
+<div class="w-full bg-surface-container-low rounded-full h-1.5 overflow-hidden">
+<div class="bg-primary h-full rounded-full w-[45%]"></div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Terisi 180 / 400 kursi</span>
+<button class="inline-flex items-center gap-1.5 px-space-md py-2 bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md rounded-lg transition-colors" onclick="openTicketModal('Startup Growth Conference')" type="button">
+                  Lihat Detail
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 5: Workshop Fullstack Web & Cloud -->
+<div class="event-item group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5" data-category="tech">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Digital developer coding live stream interface on multi-monitor setup with code editor terminal, cloud infrastructure diagram, modern developer workspace" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZxRd40C0TyL37Vmy2fzwFq0GF_9W9o-_qlTfmph6CJ2nEPDDgBGE9mKMHJp21ebg3IKKP4E6pJse8yB_wdTfB-QpnvlkGKzytte_im75Oj_7blKpXMj45ZzLoK_Ht8f5IwfmIzTOKSTuz0_zk3MDHXw0NtcIu59MZl2KOcVjkWyQAvm5D7XO9gQxRO1wh4V1bI6Nh84fIkNWLI3pmrqVbBa1OJBGHhGM-JIrj1q7akFRuN6rqOszagg"/>
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-sm text-label-sm text-primary font-bold">
+              GRATIS
+            </div>
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-lg bg-primary-container text-on-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">videocam</span> Online
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between text-on-surface-variant font-mono-data text-mono-data">
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]">calendar_month</span> 12 Des 2025
+                </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 19:30 WIB
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                Workshop Fullstack Web & Cloud Engineering
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Praktik langsung deployment serverless, CI/CD pipeline, dan optimasi performa backend arsitektur modern.
+              </p>
+</div>
+<div class="flex flex-col gap-3 pt-space-xs">
+<div class="flex items-center justify-between text-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-on-surface-variant truncate">
+<span class="material-symbols-outlined text-[16px] text-outline">forum</span> Zoom & Discord Live
+                </span>
+<span class="flex items-center gap-1 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> CloudNusantara
+                </span>
+</div>
+<div class="w-full bg-surface-container-low rounded-full h-1.5 overflow-hidden">
+<div class="bg-primary h-full rounded-full w-[70%]"></div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Terisi 700 / 1000 slot</span>
+<button class="inline-flex items-center gap-1.5 px-space-md py-2 bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md rounded-lg transition-colors" onclick="openTicketModal('Workshop Fullstack Web')" type="button">
+                  Lihat Detail
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 6: Festival Kreatif Nusantara -->
+<div class="event-item group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5" data-category="design">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Creative craft art exhibition at M Bloc Space Jakarta with contemporary batik textiles, artisan pottery, warm ambient lighting, bustling creative young visitors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuYlEKTT5T4uRpRBj5O7bDUFhgHO5OOBHQgZYBNkmCA6UHREqN7GVU-rYICPWT3HF7Ymj5VZrir3e5XgQk8lIRakbcaSYaaHsgVTry-BmVxa1vgI7icR4jxMKba0l5iFYXnJ8wrM8TxJ3pcdPMyjjZf0aZ93WAhG4zcxUQ4lM9TjXMs-9cZuynBDzyWJsBoKuoDSrg02TGBzNx9wB58Jhao3GhRDkJMTY6oHnhZ9vAzTZ6agUOT4d0cQ"/>
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-sm text-label-sm text-primary font-bold">
+              GRATIS TIKET
+            </div>
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded-lg bg-inverse-surface/80 text-inverse-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">palette</span> Pameran
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between text-on-surface-variant font-mono-data text-mono-data">
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]">calendar_month</span> 19 Des 2025
+                </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 10:00 WIB
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                Festival Kreatif Nusantara 2025: Craft & Digital Art
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Eksibisi karya seni visual, instalasi interaktif, pasar kriya lokal, dan kolaborasi desainer muda Indonesia.
+              </p>
+</div>
+<div class="flex flex-col gap-3 pt-space-xs">
+<div class="flex items-center justify-between text-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-on-surface-variant truncate">
+<span class="material-symbols-outlined text-[16px] text-outline">location_on</span> M Bloc Space, Jaksel
+                </span>
+<span class="flex items-center gap-1 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> Kolektif Seni ID
+                </span>
+</div>
+<div class="w-full bg-surface-container-low rounded-full h-1.5 overflow-hidden">
+<div class="bg-primary h-full rounded-full w-[52%]"></div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Terisi 260 / 500 tiket</span>
+<button class="inline-flex items-center gap-1.5 px-space-md py-2 bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md rounded-lg transition-colors" onclick="openTicketModal('Festival Kreatif Nusantara')" type="button">
+                  Lihat Detail
+                  <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Load More / Explore All -->
+<div class="mt-12 text-center">
+<a class="inline-flex items-center gap-2 px-space-xl py-3 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg transition-colors shadow-sm" href="#">
+<span>Lihat 450+ Event Lainnya di Indonesia</span>
+<span class="material-symbols-outlined text-[20px] text-primary">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- HOW IT WORKS (CARA KERJA EVENTKU) -->
+<section class="w-full py-16 bg-surface-container-low/60 relative">
+<div class="max-w-[1360px] mx-auto px-margin">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm mb-3">
+<span class="material-symbols-outlined text-[16px]">auto_fix_high</span> ALUR CEPAT & MUDAH
+        </div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Bagaimana EVENTKU Bekerja</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">Dapatkan akses ke event favorit dalam 3 langkah sederhana tanpa proses registrasi yang rumit.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter relative">
+<!-- Step 1 -->
+<div class="flex flex-col bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm relative group hover:shadow-md transition-all">
+<div class="w-14 h-14 rounded-2xl bg-primary-fixed text-primary flex items-center justify-center font-headline-md text-headline-md font-bold mb-5 shadow-sm group-hover:scale-110 transition-transform">
+            01
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-bold">Pilih Event Favorit</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Gunakan filter cerdas berdasarkan kategori, format (online/offline), atau lokasi terdekat Anda di seluruh penjuru Indonesia.
+          </p>
+<div class="mt-6 flex items-center gap-2 text-primary font-label-md text-label-md">
+<span>Rekomendasi Pintar</span>
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm relative group hover:shadow-md transition-all">
+<div class="w-14 h-14 rounded-2xl bg-tertiary-fixed text-tertiary flex items-center justify-center font-headline-md text-headline-md font-bold mb-5 shadow-sm group-hover:scale-110 transition-transform">
+            02
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-bold">Daftar Tiket Instan</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Pilih jenis tiket, masukkan nama serta email. Konfirmasi langsung terbit seketika tanpa jeda antrean pembayaran tiket gratis.
+          </p>
+<div class="mt-6 flex items-center gap-2 text-tertiary font-label-md text-label-md">
+<span>Tanpa Biaya Admin</span>
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm relative group hover:shadow-md transition-all">
+<div class="w-14 h-14 rounded-2xl bg-primary text-on-primary flex items-center justify-center font-headline-md text-headline-md font-bold mb-5 shadow-sm group-hover:scale-110 transition-transform">
+            03
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-bold">Tunjukkan QR di Lokasi</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Tiket dengan barcode QR unik tersimpan di aplikasi & email. Cukup scan di gate masuk tanpa perlu mencetak kertas fisik.
+          </p>
+<div class="mt-6 flex items-center gap-2 text-primary font-label-md text-label-md">
+<span>Gate Masuk 1 Detik</span>
+<span class="material-symbols-outlined text-[16px]">qr_code_scanner</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA FOR ORGANIZERS (DEEP ARCHITECTURAL NAVY & NEON GLOW) -->
+<section class="w-full py-16 bg-surface">
+<div class="max-w-[1360px] mx-auto px-margin">
+<div class="relative overflow-hidden rounded-3xl bg-inverse-surface text-inverse-on-surface p-8 sm:p-12 lg:p-16 shadow-2xl">
+<!-- Ambient Neon Glow Gradients -->
+<div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-primary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -left-24 w-80 h-80 rounded-full bg-tertiary-container/20 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-lowest/10 backdrop-blur-md text-inverse-primary font-label-sm text-label-sm w-fit">
+<span class="material-symbols-outlined text-[16px]">handshake</span> UNTUK CREATOR & PROMOTOR
+            </div>
+<h2 class="font-headline-xl text-headline-xl sm:text-display-hero text-inverse-on-surface font-bold tracking-tight">
+              Siap Menyelenggarakan <br class="hidden sm:inline"/>
+<span class="bg-gradient-to-r from-inverse-primary to-surface-tint bg-clip-text text-transparent">Event Anda Sendiri?</span>
+</h2>
+<p class="font-body-lg text-body-lg text-inverse-on-surface/80 max-w-2xl">
+              Dari pendaftaran peserta gratis hingga festival musik ribuan penonton. Kelola kuota tiket, broadcast WhatsApp, dan verifikasi kehadiran dengan aplikasi scanner gate dalam satu dashboard terintegrasi.
+            </p>
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center justify-center gap-2 px-space-lg py-3 rounded-xl bg-primary text-on-primary hover:bg-primary-container font-label-lg text-label-lg transition-all shadow-[0_4px_16px_rgba(56,103,255,0.4)]" href="#">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+<span>Buka Dashboard Penyelenggara</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-space-lg py-3 rounded-xl bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 text-inverse-on-surface font-label-lg text-label-lg transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]">play_circle</span>
+<span>Pelajari Solusi Enterprise</span>
+</a>
+</div>
+</div>
+<!-- Feature Metric Grid Mini Showcase -->
+<div class="lg:col-span-4 grid grid-cols-2 gap-3">
+<div class="p-4 rounded-xl bg-surface-container-lowest/5 backdrop-blur-sm flex flex-col gap-1">
+<span class="material-symbols-outlined text-inverse-primary text-[24px]">speed</span>
+<span class="font-headline-sm text-headline-sm font-bold text-inverse-on-surface">1,000+</span>
+<span class="font-body-sm text-[12px] text-inverse-on-surface/70">Scan Tiket / Menit</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest/5 backdrop-blur-sm flex flex-col gap-1">
+<span class="material-symbols-outlined text-inverse-primary text-[24px]">verified_user</span>
+<span class="font-headline-sm text-headline-sm font-bold text-inverse-on-surface">100% Anti-Calo</span>
+<span class="font-body-sm text-[12px] text-inverse-on-surface/70">Enkripsi QR Dinamis</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest/5 backdrop-blur-sm flex flex-col gap-1">
+<span class="material-symbols-outlined text-inverse-primary text-[24px]">analytics</span>
+<span class="font-headline-sm text-headline-sm font-bold text-inverse-on-surface">Real-Time</span>
+<span class="font-body-sm text-[12px] text-inverse-on-surface/70">Data Demografi Peserta</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest/5 backdrop-blur-sm flex flex-col gap-1">
+<span class="material-symbols-outlined text-inverse-primary text-[24px]">support_agent</span>
+<span class="font-headline-sm text-headline-sm font-bold text-inverse-on-surface">24/7 Gate</span>
+<span class="font-body-sm text-[12px] text-inverse-on-surface/70">Dukungan On-Site Tim</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- QUICK TICKET MODAL (INTERACTIVE VANILLA JS) -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center bg-inverse-surface/60 backdrop-blur-sm p-4" id="ticketModal">
+<div class="bg-surface-container-lowest rounded-2xl max-w-md w-full shadow-2xl overflow-hidden flex flex-col animate-in fade-in zoom-in duration-200">
+<!-- Modal Header -->
+<div class="p-space-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">confirmation_number</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface" id="modalEventTitle">Detail Pendaftaran</h3>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface p-1 rounded-lg" onclick="closeTicketModal()" type="button">
+<span class="material-symbols-outlined text-[22px]">close</span>
+</button>
+</div>
+<!-- Modal Body -->
+<div class="p-space-lg flex flex-col gap-4">
+<div class="flex items-center justify-between p-3 rounded-xl bg-surface-container-low">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Tiket Reguler Masuk (Gratis)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Akses Penuh Sesi & E-Sertifikat</span>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold">Rp 0</span>
+</div>
+<form class="flex flex-col gap-3" id="orderForm" onsubmit="handleRegistration(event)">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface">Nama Lengkap Sesuai ID</label>
+<input class="px-3.5 py-2.5 rounded-lg bg-surface-container-lowest border-0 ring-1 ring-outline-variant focus:ring-2 focus:ring-primary font-body-md text-body-md text-on-surface focus:outline-none" placeholder="Contoh: Budi Santoso" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface">Alamat Email Penerima Tiket</label>
+<input class="px-3.5 py-2.5 rounded-lg bg-surface-container-lowest border-0 ring-1 ring-outline-variant focus:ring-2 focus:ring-primary font-body-md text-body-md text-on-surface focus:outline-none" placeholder="nama@email.com" required="" type="email"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface">Nomor WhatsApp (Untuk QR Tiket)</label>
+<input class="px-3.5 py-2.5 rounded-lg bg-surface-container-lowest border-0 ring-1 ring-outline-variant focus:ring-2 focus:ring-primary font-body-md text-body-md text-on-surface focus:outline-none" placeholder="081234567890" required="" type="tel"/>
+</div>
+<div class="pt-2">
+<button class="w-full py-3 bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg rounded-xl shadow-md transition-all flex items-center justify-center gap-2" id="btnSubmitTicket" type="submit">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>Dapatkan E-Tiket Sekarang</span>
+</button>
+</div>
+</form>
+</div>
+<div class="px-space-lg pb-space-lg text-center">
+<span class="font-body-sm text-[12px] text-on-surface-variant flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-outline">lock</span>
+          Data Anda terlindungi oleh sistem enkripsi PT EVENTKU Digital.
+        </span>
+</div>
+</div>
+</div>
+<script>
+    // Category Filtering Logic
+    document.querySelectorAll('.event-filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Reset classes
+        document.querySelectorAll('.event-filter-btn').forEach(b => {
+          b.classList.remove('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+          b.classList.add('text-on-surface-variant');
+        });
+        btn.classList.add('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+        btn.classList.remove('text-on-surface-variant');
+
+        const cat = btn.getAttribute('data-category');
+        const items = document.querySelectorAll('.event-item');
+        items.forEach(item => {
+          if (cat === 'all' || item.getAttribute('data-category') === cat) {
+            item.style.display = 'flex';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Quick Search Input Helper
+    function quickFilter(term) {
+      const input = document.getElementById('searchKeyword');
+      if (input) {
+        input.value = term;
+        input.focus();
+        document.getElementById('event-list').scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // Modal Interactions
+    function openTicketModal(eventTitle) {
+      const modal = document.getElementById('ticketModal');
+      const titleElem = document.getElementById('modalEventTitle');
+      if (modal && titleElem) {
+        titleElem.textContent = eventTitle;
+        modal.classList.remove('hidden');
+      }
+    }
+
+    function closeTicketModal() {
+      const modal = document.getElementById('ticketModal');
+      if (modal) {
+        modal.classList.add('hidden');
+      }
+    }
+
+    // Close on backdrop click
+    const modalBackdrop = document.getElementById('ticketModal');
+    if (modalBackdrop) {
+      modalBackdrop.addEventListener('click', (e) => {
+        if (e.target === modalBackdrop) {
+          closeTicketModal();
+        }
+      });
+    }
+
+    // Handle Form Submit
+    function handleRegistration(e) {
+      e.preventDefault();
+      const btn = document.getElementById('btnSubmitTicket');
+      btn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[18px]">progress_activity</span> Memproses E-Tiket...';
+      btn.disabled = true;
+
+      setTimeout(() => {
+        btn.innerHTML = '<span class="material-symbols-outlined text-[18px]">done_all</span> Berhasil Terkirim!';
+        setTimeout(() => {
+          alert('Selamat! E-Tiket QR Anda telah berhasil dibuat dan dikirimkan ke WhatsApp & Email.');
+          closeTicketModal();
+          btn.innerHTML = '<span class="material-symbols-outlined text-[18px]">verified</span> Dapatkan E-Tiket Sekarang';
+          btn.disabled = false;
+        }, 600);
+      }, 1000);
+    }
+
+    // Hero Search Button Event
+    const btnSearchHero = document.getElementById('btnSearchHero');
+    if (btnSearchHero) {
+      btnSearchHero.addEventListener('click', () => {
+        document.getElementById('event-list').scrollIntoView({ behavior: 'smooth' });
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(0,0,0,0.03)]"><div class="max-w-[1360px] mx-auto px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl mb-space-xl"><div class="lg:col-span-2 flex flex-col gap-space-md"><div class="flex items-center gap-3"><img alt="EVENTKU Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WBqW3eKXSgzqS_HoiMpan8qw2DIhzXDjlBIoGMXS4q8zg2wnx_PndevqD3POgLAA4XsoGfmxiIcbr5ZTgC2DDksuaWyE8wx3-mkRSYFm7WeS1aPi9kCBmVMKwdhnO-lOhdOI-fEDy8gY1ydgxZdTeBK4rgmPVONUaN-saoBSknrlKjY68-WmUhhN0Le2USEAEOozvN2M-pXTZoiNnMAg0TwnikUKb2-dbkXf8PA9SUp0NbY6b76dme6CKe"/><span class="font-headline-sm text-headline-sm text-primary font-bold">EVENTKU</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Platform manajemen dan ticketing event digital terdepan di Indonesia. Menghadirkan kemudahan transaksi tiket, keamanan autentikasi QR, dan pengalaman event tak terlupakan.</p><div class="flex items-center gap-3"><span class="font-label-sm text-label-sm text-on-surface-variant">Bahasa:</span><div class="inline-flex items-center gap-1.5 px-space-sm py-space-xs rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md"><span class="material-symbols-outlined text-[16px] text-primary">language</span><span>Indonesia (ID)</span></div></div></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-on-surface">Jelajah & Beli</h4><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="jelajahi-event" href="#">Semua Event</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kategori" href="#">Konser & Musik</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kategori" href="#">Konferensi Bisnis</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kategori" href="#">Workshop & Kelas</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kategori" href="#">Festival Budaya</a></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-on-surface">Penyelenggara</h4><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="buat-event" href="#">Buat Event Baru</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kelola-tiket" href="#">Sistem Ticketing</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="qr-check-in" href="#">Aplikasi Gate Check-in</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="laporan-analitik" href="#">Solusi Enterprise</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="tentang-kami" href="#">Panduan Creator</a></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-on-surface">Berlangganan Info</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Dapatkan penawaran presale dan jadwal festival musik terbaru langsung ke email Anda.</p><div class="flex flex-col gap-2"><div class="flex items-center rounded-lg bg-surface-container-low p-1"><input class="bg-transparent px-3 py-1.5 font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none w-full" placeholder="Masukkan email Anda" type="email"/><button class="px-space-md py-1.5 bg-primary text-on-primary rounded-lg font-label-md text-label-md hover:bg-primary-container transition-colors" type="button">Kirim</button></div><span class="font-body-sm text-body-sm text-secondary">Privasi Anda terjamin 100%.</span></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2025 PT EVENTKU Digital Nusantara. Hak Cipta Dilindungi.</p><div class="flex items-center gap-6"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Syarat & Ketentuan</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Kebijakan Privasi</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Pusat Bantuan</a></div></div></div></footer></body></html>

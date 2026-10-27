@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('content')<div class="auth-shell"><div class="auth-card"><span class="eyebrow">500 SERVER ERROR</span><h1>Terjadi kendala sementara.</h1><p class="muted">Permintaan belum dapat diproses. Silakan coba lagi atau kembali ke beranda.</p><a class="btn btn-primary" href="{{ route('home') }}">Kembali ke Beranda</a></div></div>@endsection

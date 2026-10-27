@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('content')<div class="auth-shell"><div class="auth-card"><span class="eyebrow">404 NOT FOUND</span><h1>Halaman tidak ditemukan.</h1><a class="btn btn-primary" href="{{ route('home') }}">Kembali ke Beranda</a></div></div>@endsection

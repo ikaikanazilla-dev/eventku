@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-low":"#f1f3ff","inverse-primary":"#b7c4ff","error-container":"#ffdad6","surface-container-high":"#e1e8ff","surface-container-lowest":"#ffffff","secondary-fixed":"#dbe2f9","primary-container":"#3867ff","on-tertiary":"#ffffff","surface-bright":"#f9f9ff","background":"#f9f9ff","primary-fixed":"#dde1ff","on-secondary-fixed":"#141b2c","primary":"#094be5","outline-variant":"#c3c5d8","tertiary-fixed-dim":"#c9beff","on-tertiary-container":"#fffdff","surface-dim":"#d1daf4","surface-container":"#e9edff","tertiary":"#5d39e5","on-secondary-container":"#5c6477","on-tertiary-fixed":"#1b0063","on-secondary-fixed-variant":"#3f4759","on-error-container":"#93000a","surface-tint":"#104de7","secondary":"#565e71","outline":"#747687","primary-fixed-dim":"#b7c4ff","on-tertiary-fixed-variant":"#4612cf","secondary-fixed-dim":"#bfc6dc","surface-variant":"#d9e2fc","on-error":"#ffffff","on-surface":"#121b2e","inverse-on-surface":"#edf0ff","error":"#ba1a1a","on-primary-fixed-variant":"#0038b6","tertiary-container":"#7657ff","on-primary-container":"#fffdff","on-secondary":"#ffffff","tertiary-fixed":"#e6deff","on-surface-variant":"#434655","inverse-surface":"#273044","on-primary":"#ffffff","on-background":"#121b2e","on-primary-fixed":"#001552","surface-container-highest":"#d9e2fc","surface":"#f9f9ff","secondary-container":"#dbe2f9"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter":"1.5rem","gutter-sm":"1rem","space-lg":"1.5rem","margin-sm":"1rem","space-md":"1rem","space-sm":"0.5rem","space-xl":"2rem","space-xs":"0.25rem","margin":"2rem"},fontFamily:{"headline-lg":["Inter"],"headline-md":["Inter"],"mono-data":["Inter"],"headline-xl-mobile":["Inter"],"headline-xl":["Inter"],"display-hero":["Inter"],"body-sm":["Inter"],"headline-sm":["Inter"],"body-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"],"label-sm":["Inter"],"display-hero-mobile":["Inter"],"body-lg":["Inter"]},fontSize:{"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-md":["22px",{lineHeight:"30px",letterSpacing:"-0.015em",fontWeight:"600"}],"mono-data":["13px",{lineHeight:"18px",letterSpacing:"-0.01em",fontWeight:"500"}],"headline-xl-mobile":["26px",{lineHeight:"34px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-xl":["36px",{lineHeight:"44px",letterSpacing:"-0.025em",fontWeight:"700"}],"display-hero":["48px",{lineHeight:"56px",letterSpacing:"-0.03em",fontWeight:"800"}],"body-sm":["12px",{lineHeight:"18px",letterSpacing:"0em",fontWeight:"400"}],"headline-sm":["18px",{lineHeight:"26px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",letterSpacing:"0em",fontWeight:"400"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.005em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.01em",fontWeight:"600"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"700"}],"display-hero-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"800"}],"body-lg":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-on-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1360px] mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-8"><a class="flex items-center gap-3" data-path="beranda" href="#"><img alt="EVENTKU Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WBqW3eKXSgzqS_HoiMpan8qw2DIhzXDjlBIoGMXS4q8zg2wnx_PndevqD3POgLAA4XsoGfmxiIcbr5ZTgC2DDksuaWyE8wx3-mkRSYFm7WeS1aPi9kCBmVMKwdhnO-lOhdOI-fEDy8gY1ydgxZdTeBK4rgmPVONUaN-saoBSknrlKjY68-WmUhhN0Le2USEAEOozvN2M-pXTZoiNnMAg0TwnikUKb2-dbkXf8PA9SUp0NbY6b76dme6CKe"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">EVENTKU</span></a><nav class="hidden lg:flex items-center gap-6" data-active-classes="text-primary font-label-lg font-bold"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="beranda" href="#">Beranda</a><a aria-current="page" class="transition-colors text-primary font-label-lg font-bold" data-path="jelajahi-event" href="#">Jelajahi Event</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kategori" href="#">Kategori</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="tentang-kami" href="#">Tentang Kami</a></nav></div><div class="flex items-center gap-3"><a class="hidden sm:flex items-center gap-2 px-space-md py-space-xs rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md" data-path="tiket-saya" href="#"><span class="material-symbols-outlined text-[18px] text-primary">confirmation_number</span><span>Tiket Saya</span></a><a class="inline-flex items-center justify-center px-space-md py-space-xs rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-all shadow-[0_2px_8px_rgba(56,103,255,0.28)]" data-path="masuk-daftar" href="#">Masuk / Daftar</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-16rem)]"><div class="flex flex-col w-full">
+<!-- Top Breadcrumb & Quick Actions Bar -->
+<section class="w-full bg-surface-container-lowest shadow-sm">
+<div class="max-w-[1360px] mx-auto px-margin py-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<nav aria-label="Breadcrumb" class="flex items-center gap-2 font-mono-data text-mono-data text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[16px]">home</span>
+<span>Beranda</span>
+</a>
+<span class="text-outline-variant">/</span>
+<a class="hover:text-primary transition-colors" href="#">Kategori Teknologi</a>
+<span class="text-outline-variant">/</span>
+<span class="text-on-surface font-semibold truncate max-w-[240px] sm:max-w-none">Indonesia Tech Summit 2025</span>
+</nav>
+<div class="flex items-center gap-2">
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary font-label-md text-label-md transition-colors" id="btnBookmark" title="Simpan Event" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+<span class="hidden sm:inline">Simpan</span>
+</button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary font-label-md text-label-md transition-colors" id="btnShare" title="Bagikan Event" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+<span class="hidden sm:inline">Bagikan</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Hero Banner & Event Title Block -->
+<section class="w-full bg-surface-container-low relative overflow-hidden py-space-lg sm:py-space-xl">
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-primary-container/10 blur-3xl pointer-events-none"></div>
+<div class="absolute -left-20 bottom-0 w-80 h-80 rounded-full bg-tertiary-container/10 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1360px] mx-auto px-margin relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<!-- Visual Event Poster / Stage Backdrop -->
+<div class="lg:col-span-5 relative group">
+<div class="relative w-full aspect-[16/10] sm:aspect-[4/3] rounded-2xl overflow-hidden shadow-xl bg-inverse-surface">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" data-alt="A grand futuristic tech conference hall in Jakarta with illuminated neon indigo and cyan stage lights, a massive holographic screen displaying artificial intelligence and neural network graphics, filled with engaged professional audiences, sharp modern cinematic photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQvLwuMgYgXKIIPaCGhmlIqtA6CQV_160GGe656EDk9UwWIhrPoT9C8Nsa35zVLi-mGoF25x3YTOuBfZBJdoQN9uKwTyaS9AuXdgkmVAlRXmBKgS7ixo7ro94SsKrCgNWINshKsp9B-BBeJOkbzI2-sH2fViWLI57l3w0npxHV7YKBdqoHP0RuYm1RA01fAq55qw6Imk88nMquIRdeARWx-hFZtsgrZtZvoj97vcCY4X6gp9mKeQYASA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/30 to-transparent"></div>
+<div class="absolute top-4 left-4 flex flex-wrap gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-sm text-label-sm text-primary shadow-sm font-bold">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+                Pendaftaran Dibuka
+              </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-inverse-surface/80 backdrop-blur-md font-label-sm text-label-sm text-surface-bright">
+<span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim">verified</span>
+                Tiket Resmi Terverifikasi
+              </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-surface-bright">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[20px]">calendar_month</span>
+<span class="font-label-md text-label-md font-semibold">15 - 16 November 2025</span>
+</div>
+<span class="font-mono-data text-mono-data px-2 py-0.5 rounded bg-surface-container-lowest/20 backdrop-blur-sm">Hybrid Stream Available</span>
+</div>
+</div>
+</div>
+<!-- Headline & Primary Meta Details -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex flex-wrap items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm uppercase tracking-wider font-bold">
+              Teknologi & Inovasi
+            </span>
+<span class="px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm">
+              Edisi Tahunan ke-5
+            </span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight leading-tight">
+            Indonesia Tech Summit 2025: <span class="text-primary">Artificial Intelligence & Future Tech</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            Konferensi inovasi teknologi terakselerasi terbesar di Asia Tenggara. Menghubungkan pemimpin industri, arsitek AI, founder modal ventura, dan perumus kebijakan digital untuk peta jalan kecerdasan buatan Indonesia.
+          </p>
+<!-- Key Meta Information Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-space-xs">
+<!-- Tanggal & Waktu -->
+<div class="p-space-sm rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[22px]">schedule</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-mono-data text-mono-data text-secondary">Waktu & Tanggal</span>
+<span class="font-label-md text-label-md text-on-surface truncate">15-16 Nov 2025</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">09:00 - 17:00 WIB</span>
+</div>
+</div>
+<!-- Lokasi -->
+<div class="p-space-sm rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[22px]">location_on</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-mono-data text-mono-data text-secondary">Lokasi Acara</span>
+<span class="font-label-md text-label-md text-on-surface truncate">JCC Senayan</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Hall A & Hybrid Stream</span>
+</div>
+</div>
+<!-- Penyelenggara -->
+<div class="p-space-sm rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-3">
+<div class="w-10 h-10 rounded-lg bg-tertiary-fixed flex items-center justify-center shrink-0 overflow-hidden">
+<span class="material-symbols-outlined text-tertiary text-[22px]">domain</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1">
+<span class="font-mono-data text-mono-data text-secondary">Organisator</span>
+<span class="material-symbols-outlined text-primary text-[14px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface truncate">TechNusantara ID</span>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px] text-amber-500" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-semibold text-on-surface">4.9</span>
+<span class="text-outline text-[11px]">(128 event)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Sticky Sub-Navigation Bar for Content Sections -->
+<div class="w-full sticky top-16 z-30 bg-surface-container-lowest/95 backdrop-blur-md shadow-sm">
+<div class="max-w-[1360px] mx-auto px-margin">
+<div class="flex items-center gap-2 overflow-x-auto py-2 no-scrollbar" id="tabContainer">
+<a class="tab-link px-4 py-2 rounded-lg font-label-md text-label-md font-semibold text-primary bg-surface-container whitespace-nowrap transition-colors" href="#tentang">Tentang Event</a>
+<a class="tab-link px-4 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low whitespace-nowrap transition-colors" href="#jadwal">Jadwal & Rundown</a>
+<a class="tab-link px-4 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low whitespace-nowrap transition-colors" href="#pembicara">Pembicara Utama</a>
+<a class="tab-link px-4 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low whitespace-nowrap transition-colors" href="#lokasi">Lokasi & Venue</a>
+<a class="tab-link px-4 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low whitespace-nowrap transition-colors" href="#fasilitas">Fasilitas Peserta</a>
+</div>
+</div>
+</div>
+<!-- Main Body Grid: 65% Content + 35% Sticky Booking -->
+<section class="w-full max-w-[1360px] mx-auto px-margin py-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Left Column: Content Narrative (65% -> 8 cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-xl">
+<!-- Section: Tentang Event -->
+<article class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md scroll-mt-28" id="tentang">
+<div class="flex items-center gap-3">
+<span class="w-2.5 h-6 rounded-full bg-primary"></span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Tentang Indonesia Tech Summit 2025</h2>
+</div>
+<div class="space-y-4 font-body-lg text-body-lg text-on-surface-variant">
+<p>
+              Perkembangan kecerdasan buatan (Artificial Intelligence) bukan lagi sebatas wacana teoritis di laboratorium, melainkan pilar transformasi utama ekonomi digital modern Indonesia. Menghadapi era kedaulatan komputasi dan revolusi Generative AI, <strong>Indonesia Tech Summit 2025</strong> hadir sebagai forum pertemuan kolaboratif bagi para pemikir teknologi, praktisi rekayasa perangkat lunak, dan pelaku bisnis.
+            </p>
+<p>
+              Selama dua hari intensif, Anda akan mendalami bagaimana teknologi mutakhir diaplikasikan pada sektor-sektor kritis: mulai dari model bahasa lokal berskala besar (Indonesian LLM), komputasi kuantum, arsitektur cloud berkeamanan tinggi, hingga otomatisasi industri manufaktur dan layanan keuangan inklusif.
+            </p>
+</div>
+<!-- Highlight Key Topics Bento Cards -->
+<div class="mt-space-sm flex flex-col gap-3">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Pilar Topik Utama</h3>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">neurology</span>
+<h4 class="font-label-lg text-label-lg text-on-surface">Generative AI & LLM</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Model dasar bahasa daerah, etika AI lokal, dan deployment arsitektur model on-premise.</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-2">
+<span class="material-symbols-outlined text-tertiary text-[28px]">memory</span>
+<h4 class="font-label-lg text-label-lg text-on-surface">Quantum & Future Tech</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Eksplorasi algoritma kuantum, kriptografi pasca-kuantum, dan robotika otonom.</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">cloud_sync</span>
+<h4 class="font-label-lg text-label-lg text-on-surface">Sovereign Cloud</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Infrastruktur data center hijau, kepatuhan PDP, dan resiliensi sistem microservices.</p>
+</div>
+</div>
+</div>
+<!-- Target Peserta -->
+<div class="mt-space-xs p-space-md rounded-xl bg-surface-container flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-bold uppercase tracking-wider">Target Peserta</span>
+<span class="font-body-md text-body-md text-on-surface">Software Engineers, Tech Founders, Product Leaders, Data Scientists, & Akademisi</span>
+</div>
+<div class="flex -space-x-2 shrink-0">
+<span class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-[12px] font-bold text-on-primary shadow-sm">AI</span>
+<span class="w-8 h-8 rounded-full bg-tertiary flex items-center justify-center text-[12px] font-bold text-on-tertiary shadow-sm">DEV</span>
+<span class="w-8 h-8 rounded-full bg-inverse-surface flex items-center justify-center text-[12px] font-bold text-surface shadow-sm">PM</span>
+<span class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-[11px] font-bold text-on-surface shadow-sm">+5k</span>
+</div>
+</div>
+</article>
+<!-- Section: Jadwal & Rundown Interaktif -->
+<article class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md scroll-mt-28" id="jadwal">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-3">
+<span class="w-2.5 h-6 rounded-full bg-primary"></span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Jadwal & Rundown Acara</h2>
+</div>
+<!-- Day Switcher Segmented Control -->
+<div class="inline-flex p-1 rounded-xl bg-surface-container-low">
+<button class="px-3 py-1 rounded-lg bg-surface-container-lowest font-label-md text-label-md font-bold text-primary shadow-sm transition-all" id="btnDay1" type="button">Hari 1 (15 Nov)</button>
+<button class="px-3 py-1 rounded-lg text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-all" id="btnDay2" type="button">Hari 2 (16 Nov)</button>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Rundown dirancang dengan jeda istirahat ideal dan integrasi area exhibition interaktif di Hall A.
+          </p>
+<!-- Rundown Timeline -->
+<div class="space-y-4 relative before:absolute before:inset-0 before:left-5 before:w-0.5 before:bg-surface-container-highest">
+<!-- Sesi 1 -->
+<div class="relative flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 z-10 shadow-md">
+<span class="material-symbols-outlined text-[20px]">mic</span>
+</div>
+<div class="flex-1 p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex flex-wrap items-center justify-between gap-2">
+<span class="font-mono-data text-mono-data font-bold text-primary">09:00 - 10:15 WIB</span>
+<span class="px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm">Main Stage</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">Opening Keynote: Sovereign AI for Indonesia Digital Economy 2030</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Paparan komprehensif mengenai strategi akselerasi infrastruktur komputasi nasional, keterbukaan model open-source, dan regulasi etika AI.</p>
+<div class="mt-3 flex items-center gap-2">
+<span class="font-label-md text-label-md font-semibold text-on-surface">Prof. Dr. Ir. Denny Wahyudi</span>
+<span class="text-secondary text-body-sm">• Head of National AI Taskforce</span>
+</div>
+</div>
+</div>
+<!-- Sesi 2 -->
+<div class="relative flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shrink-0 z-10 shadow-md">
+<span class="material-symbols-outlined text-[20px]">groups</span>
+</div>
+<div class="flex-1 p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex flex-wrap items-center justify-between gap-2">
+<span class="font-mono-data text-mono-data font-bold text-tertiary">10:30 - 12:00 WIB</span>
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm">Panel Discussion</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">Panel: AI Transformation in High-Volume Banking & Healthcare</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Studi kasus nyata integrasi automated risk scoring pada core banking dan diagnostic imaging triage dengan latensi ultra rendah.</p>
+<div class="mt-3 flex items-center gap-2">
+<span class="font-label-md text-label-md font-semibold text-on-surface">Sarah Paramita (VP AI Bank Mandiri) & dr. Adrian Kusuma (CTO MedikaAI)</span>
+</div>
+</div>
+</div>
+<!-- Sesi 3 -->
+<div class="relative flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-inverse-surface text-surface flex items-center justify-center shrink-0 z-10 shadow-md">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+</div>
+<div class="flex-1 p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex flex-wrap items-center justify-between gap-2">
+<span class="font-mono-data text-mono-data font-bold text-primary">13:30 - 15:15 WIB</span>
+<span class="px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm">Exclusive VIP Workshop</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">Hands-on Lab: Fine-Tuning Llama-3 with Custom Indonesian Corpora</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Praktik langsung pipeline data cleaning, LoRA parameter-efficient tuning, dan validasi output hallucination dengan PyTorch & vLLM.</p>
+<div class="mt-3 flex items-center gap-2">
+<span class="font-label-md text-label-md font-semibold text-on-surface">Reza Pratama</span>
+<span class="text-secondary text-body-sm">• Principal AI Architect, CloudNusa</span>
+</div>
+</div>
+</div>
+<!-- Sesi 4 -->
+<div class="relative flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest text-primary flex items-center justify-center shrink-0 z-10 shadow-md">
+<span class="material-symbols-outlined text-[20px]">handshake</span>
+</div>
+<div class="flex-1 p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex flex-wrap items-center justify-between gap-2">
+<span class="font-mono-data text-mono-data font-bold text-secondary">15:30 - 17:00 WIB</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Networking Hall</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">Startup Showcase, Demo Booth & VC Speed Matchmaking</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Interaksi langsung dengan 45 booth inovator teknologi, live prototype testing, dan sesi temu investor terkurasi.</p>
+</div>
+</div>
+</div>
+</article>
+<!-- Section: Pembicara Utama (4 Cards) -->
+<article class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md scroll-mt-28" id="pembicara">
+<div class="flex items-center gap-3">
+<span class="w-2.5 h-6 rounded-full bg-primary"></span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Pembicara Utama Unggulan</h2>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Card Speaker 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex items-start gap-4">
+<div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Portrait photo of a male Indonesian senior AI researcher in mid-40s with glasses and modern navy blazer, professional studio headshot, calm confident expression." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwdwIQlhyzG2gWsO06tDQWEDhbCzJD70aRWy9jG6V9NAuWibG1VVZgr3RgrS7tWMHXd4b4xpxjHG5fSyf7PQVr_5yluLdEbuX136OfoA5o5ohrSCmY_7GyBiYaiGNCL1n0onTqM_FjDCivhmVxURnNW_XRFCLRSdhssnJtMDeIZhXDghAMu08vaFfyBijlcZCYALCMZEKXnUh7WbWIHnz6r9XhOk7nzD-AFnbxivUzttoxxSoIyJoLoQ"/>
+</div>
+<div class="flex flex-col min-w-0">
+<h4 class="font-headline-sm text-headline-sm text-on-surface truncate">Prof. Denny Wahyudi</h4>
+<span class="font-label-md text-label-md text-primary truncate">Head of National AI Taskforce</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Pelopor riset Natural Language Processing Indonesia dengan lebih dari 70 publikasi internasional.</p>
+</div>
+</div>
+<!-- Card Speaker 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex items-start gap-4">
+<div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Portrait photo of a female Southeast Asian tech executive in late 30s with warm smile, modern smart-casual attire, brightly lit corporate office background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhYHxzGxbRus0V1nSW-qoFJ_OXoCntA6-oEI1c3hpMmP8kpvVrlGV3jIXWRj9AsedGqxOQSo04fplTLfgQZn8STiLj8RPHoqrq6D7i0zKwcVRBcGv-T9tEmLex2FB7A9XoaLSaRCPkRtY2lfIC5owmLeeEcV2b8eA6QlChSkg9NMd3vAfjzbdvuOJdmfFgQPZne3xIntEw6LhXyp-nPZtRIzDErCwKAsuE64PIF5DcVMqYwSMeaJjebA"/>
+</div>
+<div class="flex flex-col min-w-0">
+<h4 class="font-headline-sm text-headline-sm text-on-surface truncate">Sarah Paramita, M.Sc</h4>
+<span class="font-label-md text-label-md text-primary truncate">VP of Artificial Intelligence</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Memimpin deployment machine learning skala enterprise untuk jutaan nasabah perbankan aktif.</p>
+</div>
+</div>
+<!-- Card Speaker 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex items-start gap-4">
+<div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Portrait photo of a young Indonesian male cloud systems architect in early 30s wearing dark technical crewneck, high-tech engineering background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPohhGyJjkr0CdbgsqIPTZrTGEqGpyyMHMxC-N4U26CFtlFluNT5d9-_iJiJv9LG_zBgk434BNWt8gnOsmw0Ly81kV1r22f5qTMOOrjtWJtHbz1fhFv7iTCwBzIUxnSN_oGLucBCuwifHlnQTIvs0pjtF7h30kRMQxV59HIfgUAEW0hPK8d40oiSK6AJtjCUBIYHoYuymzuwKl7LpvnaMfh5Z0kJfllfgZMZX4WtvVYCYyj8_jQE0u2Q"/>
+</div>
+<div class="flex flex-col min-w-0">
+<h4 class="font-headline-sm text-headline-sm text-on-surface truncate">Reza Pratama</h4>
+<span class="font-label-md text-label-md text-primary truncate">Principal AI Architect</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Spesialis distributed training GPU clusters dan orkestrasi Kubernetes untuk model generative.</p>
+</div>
+</div>
+<!-- Card Speaker 4 -->
+<div class="p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex items-start gap-4">
+<div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Portrait photo of an Indonesian female tech founder and AI healthcare specialist in mid 30s, smart crisp professional lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCw5JtuYA5nocUnkEj0cqFhVYnEKEEoNl4vXy__VwqKZUV1vaEb2nqnHdIpTko4EYihSrSbXbqYT10IpSDq9fIv5BTTFzBli0p1n6QsYB7_6rdCwsPQ6Shkx6OcnlazhIsNHsufR-s0jdC1hmDAdtmUwjxV7H8c8Mk6GYhev_wSPj9DQS6xFMZ8-knD_Wt8nwVYlGTMNWKrN8D3-L-xoA_npoM8Fsg2I8jyAvYemGs2YmCazZBigBZhYQ"/>
+</div>
+<div class="flex flex-col min-w-0">
+<h4 class="font-headline-sm text-headline-sm text-on-surface truncate">dr. Amanda Siregar</h4>
+<span class="font-label-md text-label-md text-primary truncate">Chief AI Medical Officer</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Pengembang model diagnosa klinis berbantuan AI yang telah diterapkan di 120 rumah sakit daerah.</p>
+</div>
+</div>
+</div>
+</article>
+<!-- Section: Lokasi & Venue -->
+<article class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md scroll-mt-28" id="lokasi">
+<div class="flex items-center gap-3">
+<span class="w-2.5 h-6 rounded-full bg-primary"></span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Lokasi & Panduan Venue</h2>
+</div>
+<div class="flex flex-col gap-2">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Jakarta Convention Center (JCC) - Hall A</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Jl. Gatot Subroto No.1, Gelora, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270
+            </p>
+</div>
+<!-- Static Map Preview Container -->
+<div class="w-full h-72 rounded-xl bg-surface-container overflow-hidden shadow-inner relative flex items-center justify-center" data-location="Jakarta Convention Center, Senayan, Jakarta" style="">
+<div class="absolute inset-0 bg-inverse-surface/10 backdrop-blur-[1px]"></div>
+<div class="relative z-10 p-space-md rounded-xl bg-surface-container-lowest/90 backdrop-blur-md shadow-lg flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[28px]">pin_drop</span>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">Jakarta Convention Center</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pintu Masuk Utama Gate 7 Senayan</p>
+</div>
+<a class="ml-2 px-3 py-1.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+                Buka Peta
+              </a>
+</div>
+</div>
+<!-- Petunjuk Transportasi & Parkir -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-space-xs">
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-primary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[18px]">directions_subway</span>
+<span>MRT Jakarta</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Turun di Stasiun Istora Mandiri (Pintu B), jalan kaki 8 menit menuju Gate 7 Senayan.</p>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-primary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[18px]">directions_bus</span>
+<span>TransJakarta</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Halte Senayan JCC (Koridor 9). Akses jembatan penyeberangan langsung ke lobi pameran.</p>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-primary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[18px]">local_parking</span>
+<span>Area Parkir</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Kapasitas 2.000+ kendaraan di Parkir Timur Senayan & basement JCC dengan pembayaran cashless.</p>
+</div>
+</div>
+</article>
+<!-- Section: Fasilitas Peserta -->
+<article class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md scroll-mt-28" id="fasilitas">
+<div class="flex items-center gap-3">
+<span class="w-2.5 h-6 rounded-full bg-primary"></span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Fasilitas & Benefit Peserta</h2>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col items-center text-center gap-2">
+<span class="material-symbols-outlined text-primary text-[32px]">workspace_premium</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">E-Certificate Resmi</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Verifikasi keahlian terbit otomatis via QR</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col items-center text-center gap-2">
+<span class="material-symbols-outlined text-primary text-[32px]">wifi</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">High-Speed Wi-Fi</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Koneksi dedicated 1Gbps di seluruh hall</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col items-center text-center gap-2">
+<span class="material-symbols-outlined text-primary text-[32px]">featured_seasonal_and_gifts</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Digital Goodie Bag</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Cloud credits $100 & e-book eksklusif</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col items-center text-center gap-2">
+<span class="material-symbols-outlined text-primary text-[32px]">coffee</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">F&B & Coffee Break</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Snack corner & lunch bagi pemegang tiket</span>
+</div>
+</div>
+</article>
+</div>
+<!-- Right Column: Sticky Ticket Booking Selector (35% -> 4 cols) -->
+<aside class="lg:col-span-4 sticky top-28 flex flex-col gap-space-md">
+<!-- Ticket Booking Card -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Pilih Tiket Masuk</h3>
+<span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-label-sm text-label-sm font-bold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse"></span>
+              Pendaftaran Gratis
+            </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Konferensi ini didanai oleh konsorsium industri teknologi untuk mendorong ekosistem talenta nasional.
+          </p>
+<!-- Ticket Selection Options Form -->
+<div class="flex flex-col gap-3" id="ticketOptionsList">
+<!-- Option 1: Regular Pass -->
+<label class="ticket-card relative block p-space-md rounded-xl bg-surface-container cursor-pointer transition-all">
+<input checked="" class="sr-only peer" name="ticket_tier" type="radio" value="regular"/>
+<div class="flex items-start justify-between">
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold">Regular Conference Pass</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Akses Penuh Sesi Utama</span>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-primary font-extrabold">GRATIS</span>
+<span class="block font-mono-data text-mono-data text-outline">Rp 0</span>
+</div>
+</div>
+<!-- Quota Info -->
+<div class="mt-3 flex items-center justify-between font-mono-data text-mono-data text-on-surface-variant">
+<span>Kuota Kursi:</span>
+<span class="font-semibold text-primary">Sisa 85 / 500 kursi</span>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full mt-1 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 83%;"></div>
+</div>
+<!-- Perks -->
+<ul class="mt-3 space-y-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+<span>Akses Hall Utama 2 Hari</span>
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+<span>Digital Goodie Bag & Materi Sesi</span>
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+<span>Sertifikat Digital Terverifikasi</span>
+</li>
+</ul>
+</label>
+<!-- Option 2: VIP Pass + Workshop -->
+<label class="ticket-card relative block p-space-md rounded-xl bg-surface-container cursor-pointer transition-all">
+<input class="sr-only peer" name="ticket_tier" type="radio" value="vip"/>
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-2">
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold">VIP + Workshop Pass</h4>
+<span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 font-label-sm text-label-sm font-bold">Hampir Habis</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Akses Eksklusif Hands-on</span>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-primary font-extrabold">GRATIS</span>
+<span class="block font-mono-data text-mono-data text-outline">Rp 0</span>
+</div>
+</div>
+<!-- Quota Info -->
+<div class="mt-3 flex items-center justify-between font-mono-data text-mono-data text-on-surface-variant">
+<span>Kuota Kursi:</span>
+<span class="font-semibold text-error">Tersisa 12 / 100 kursi</span>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full mt-1 overflow-hidden">
+<div class="bg-error h-full rounded-full" style="width: 88%;"></div>
+</div>
+<!-- Perks -->
+<ul class="mt-3 space-y-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+<span>Semua Benefit Regular Pass</span>
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+<span>Kursi Baris Depan VIP & Fast-Track QR</span>
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+<span>Akses Hands-on AI Lab & Lunch Box</span>
+</li>
+</ul>
+</label>
+</div>
+<!-- Quantity Selector Counter -->
+<div class="flex items-center justify-between pt-2">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Jumlah Tiket:</span>
+<div class="flex items-center gap-2 bg-surface-container-low px-2 py-1 rounded-lg">
+<button class="w-7 h-7 rounded-md bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high font-bold transition-colors" id="btnMinus" type="button">
+                -
+              </button>
+<span class="font-headline-sm text-headline-sm text-on-surface w-6 text-center" id="ticketCount">1</span>
+<button class="w-7 h-7 rounded-md bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high font-bold transition-colors" id="btnPlus" type="button">
+                +
+              </button>
+</div>
+</div>
+<span class="font-body-sm text-body-sm text-secondary text-right -mt-2">Maksimal 2 tiket per akun terverifikasi.</span>
+<!-- Registration Deadline Banner -->
+<div class="p-space-sm rounded-xl bg-amber-50 text-amber-900 flex items-center gap-2.5">
+<span class="material-symbols-outlined text-amber-700 text-[20px]">timer</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-bold">Batas Pendaftaran:</span>
+<span class="font-body-sm text-body-sm">10 November 2025, 23:59 WIB</span>
+</div>
+</div>
+<!-- Main Booking Action CTA -->
+<button class="w-full py-3.5 px-space-md rounded-xl bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm tracking-tight flex items-center justify-center gap-2 shadow-lg transition-all active:scale-[0.99]" id="btnRegisterNow" type="button">
+<span class="material-symbols-outlined text-[22px]">confirmation_number</span>
+<span>Daftar Event Sekarang (Gratis)</span>
+</button>
+<!-- Security & Guarantee Badge -->
+<div class="flex items-center justify-center gap-2 text-on-surface-variant font-mono-data text-mono-data">
+<span class="material-symbols-outlined text-emerald-600 text-[18px]">verified_user</span>
+<span>E-Tiket QR instan dikirim ke email & menu Tiket Saya</span>
+</div>
+</div>
+<!-- Mini Organizer Card -->
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-3">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-primary font-bold text-headline-sm">
+              TN
+            </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">TechNusantara ID</span>
+<span class="font-body-sm text-body-sm text-secondary">Penyelenggara Konferensi Teknologi Resmi</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Hubungi Panitia</span>
+</button>
+<button class="px-3 py-1.5 rounded-lg bg-primary-fixed hover:bg-primary-fixed-dim text-on-primary-fixed-variant font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Ikuti Organisasi</span>
+</button>
+</div>
+</div>
+</aside>
+</div>
+</section>
+<!-- Bottom Section: Related Tech Events Recommendations -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="max-w-[1360px] mx-auto px-margin flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+<div>
+<span class="font-mono-data text-mono-data text-primary font-bold uppercase tracking-wider">Rekomendasi Lainnya</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">Event Teknologi Terkait Lainnya</h2>
+</div>
+<a class="inline-flex items-center gap-1 font-label-lg text-label-lg text-primary hover:underline" href="#">
+<span>Lihat Semua Event Teknologi</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- 3 Recommended Event Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Rec Card 1 -->
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 group cursor-pointer">
+<div class="w-full aspect-[16/9] rounded-xl overflow-hidden bg-surface-container relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Cybersecurity defense conference stage, blue and red laser telemetry graphics, dark sleek technological interface, Jakarta venue." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuR5elCU920FdRGQZcJQ3AiwH7M3CHQ1PMIZvwOnC6XgtWMkcosVLv60IbsM0A1-e1w2AYyG0LZc0AD2sZ-IpvXX0Q6URyTLjSoSGQZtB5LQcl9X4KK9ryTTiECK7BCMGPF-wczNjhJfIYhZfqY2Qfc4xzn5LUz6XMJ2oTCsVmIGkpNBQurCjpGPB2cbBaomDtiLE48UUaj7ieB6dlnARQb8LezjG5RBxQjrcR7W8X91EjzK97iH1Xsw"/>
+<span class="absolute top-2 right-2 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 font-label-sm text-label-sm font-bold text-on-surface">Gratis</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-mono-data text-mono-data text-primary">22 November 2025 • Jakarta</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors truncate">Cyber Defense & Cloud Security Expo 2025</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Pencegahan ransomware perbankan dan kedaulatan data di masa depan.</p>
+</div>
+<div class="pt-2 flex items-center justify-between text-secondary font-label-md text-label-md">
+<span>Sisa 45 Kursi</span>
+<span class="text-primary font-semibold">Detail →</span>
+</div>
+</div>
+<!-- Rec Card 2 -->
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 group cursor-pointer">
+<div class="w-full aspect-[16/9] rounded-xl overflow-hidden bg-surface-container relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Fintech founders summit in Bandung, vibrant ambient lighting, stages with high tech screens showing digital banking transactions." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5uiDmXkeYIl3komy21cTxorXYUr_boTb6bGr-wAXcL8N7ewB1RVOx22PJGnDkfC2WwYdTd-WfTatDloSIJxOevZ2DdNwmkiSGmQnPak51hCaJlUtiW4pKgzd-4vuPz0IlAQPyWulslr2c7Fc-dVrMpvEziZW2OHmz_AvLv6w4zqvdMZEPRdMDaJaACzMTo_5-32lByYKn_FZkG7KWxEU7COk-WmIJ8Sjj94Rwp_KuH3g2j9LlhkqARw"/>
+<span class="absolute top-2 right-2 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 font-label-sm text-label-sm font-bold text-on-surface">Berbayar</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-mono-data text-mono-data text-primary">05 Desember 2025 • Bandung</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors truncate">Fintech Horizon Indonesia: Beyond Payments</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Kupas tuntas open finance, blockchain asset settlement, dan regulasi OJK.</p>
+</div>
+<div class="pt-2 flex items-center justify-between text-secondary font-label-md text-label-md">
+<span>Mulai Rp 150.000</span>
+<span class="text-primary font-semibold">Detail →</span>
+</div>
+</div>
+<!-- Rec Card 3 -->
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 group cursor-pointer">
+<div class="w-full aspect-[16/9] rounded-xl overflow-hidden bg-surface-container relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Developer hackathon hall with multiple screens, programming code visualizations, enthusiastic software engineers collaborating." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOcB67g5lIGLzEftDXtZQk7gjdJv2PDbFksEDGgeaYLgpDe8c5ncCCqJjeZPvp1hCSXL5V2y_i3h9ggwF7XI5A2Q-DJ4Wl5pkCFtRcodlMMpzlOOuolkfEFsDyZkgos_jzf_S9hzUzlGsw6yOy1EkvZDpcZddeyd-bd9HUx-4XR5JZfcsWMia0LCRX6ZSXVmkFBdVHDAbWJZyVxe4XlX_9ozVJmwQiZydhAYo8j39OsyyaNd462pS8Bw"/>
+<span class="absolute top-2 right-2 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 font-label-sm text-label-sm font-bold text-on-surface">Gratis</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-mono-data text-mono-data text-primary">12-14 Desember 2025 • Hybrid</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors truncate">Nusantara AI Hackathon & Pitch Battle</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Kompetisi 48 jam membangun aplikasi AI nyata dengan total hadiah 200 juta rupiah.</p>
+</div>
+<div class="pt-2 flex items-center justify-between text-secondary font-label-md text-label-md">
+<span>Dibuka untuk Tim</span>
+<span class="text-primary font-semibold">Detail →</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Registration Confirmation Dialog / Slide-Over Drawer Modal -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/60 backdrop-blur-sm hidden items-center justify-center p-4" id="bookingModal">
+<div class="w-full max-w-md rounded-2xl bg-surface-container-lowest shadow-2xl p-space-lg flex flex-col gap-space-md animate-in fade-in zoom-in-95 duration-200">
+<!-- Modal Header -->
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-2">
+<div class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Konfirmasi Pendaftaran</h3>
+<span class="font-body-sm text-body-sm text-secondary">Tiket Resmi Terdaftar</span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant hover:text-on-surface" id="btnCloseModal" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Ticket QR Mock & Summary -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-2">
+<div class="flex justify-between items-center text-on-surface">
+<span class="font-label-md text-label-md" id="modalTicketTier">Regular Conference Pass</span>
+<span class="font-mono-data text-mono-data font-bold text-primary">GRATIS</span>
+</div>
+<div class="flex justify-between items-center font-body-sm text-body-sm text-secondary">
+<span>Jumlah:</span>
+<span class="font-semibold text-on-surface" id="modalTicketQty">1 Tiket</span>
+</div>
+<div class="flex justify-between items-center font-body-sm text-body-sm text-secondary">
+<span>Tanggal:</span>
+<span class="text-on-surface">15 - 16 Nov 2025</span>
+</div>
+<div class="flex justify-between items-center font-body-sm text-body-sm text-secondary">
+<span>Venue:</span>
+<span class="text-on-surface">JCC Hall A, Senayan</span>
+</div>
+</div>
+<!-- QR Preview Segment -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border-2 border-dashed border-outline-variant flex flex-col items-center justify-center gap-2 text-center">
+<div class="w-32 h-32 bg-surface-container flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined text-primary text-[80px]">qr_code_2</span>
+</div>
+<span class="font-mono-data text-mono-data font-semibold text-on-surface">ITS2025-JKT-8849-AI</span>
+<span class="font-body-sm text-body-sm text-secondary">Kode QR digital ini dapat langsung di-scan saat gate check-in dibuka.</span>
+</div>
+<div class="flex flex-col gap-2">
+<button class="w-full py-2.5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg font-semibold transition-colors" id="btnComplete" type="button">
+          Buka di Tiket Saya
+        </button>
+<button class="w-full py-2 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md transition-colors" id="btnContinueBrowse" type="button">
+          Kembali ke Event
+        </button>
+</div>
+</div>
+</div>
+<!-- Toast Notification Template Container -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none" id="toastNotification">
+<div class="px-4 py-3 rounded-xl bg-inverse-surface text-surface shadow-2xl flex items-center gap-3">
+<span class="material-symbols-outlined text-emerald-400 text-[20px]">check_circle</span>
+<span class="font-label-md text-label-md" id="toastMessage">Tautan event berhasil disalin ke clipboard!</span>
+</div>
+</div>
+<!-- Interactive Client-side Script -->
+<script>
+    (function initEventDetailUX() {
+      // Quantity counter
+      let count = 1;
+      const countEl = document.getElementById('ticketCount');
+      const btnPlus = document.getElementById('btnPlus');
+      const btnMinus = document.getElementById('btnMinus');
+
+      if (btnPlus && btnMinus && countEl) {
+        btnPlus.addEventListener('click', () => {
+          if (count < 2) {
+            count++;
+            countEl.textContent = count;
+          }
+        });
+        btnMinus.addEventListener('click', () => {
+          if (count > 1) {
+            count--;
+            countEl.textContent = count;
+          }
+        });
+      }
+
+      // Ticket radio active card state styling
+      const radioCards = document.querySelectorAll('.ticket-card');
+      radioCards.forEach(card => {
+        card.addEventListener('click', () => {
+          radioCards.forEach(c => {
+            c.classList.remove('bg-surface-container-high', 'shadow-md');
+            c.classList.add('bg-surface-container');
+          });
+          card.classList.remove('bg-surface-container');
+          card.classList.add('bg-surface-container-high', 'shadow-md');
+        });
+      });
+
+      // Day switcher for rundown
+      const btnDay1 = document.getElementById('btnDay1');
+      const btnDay2 = document.getElementById('btnDay2');
+      if (btnDay1 && btnDay2) {
+        btnDay1.addEventListener('click', () => {
+          btnDay1.className = 'px-3 py-1 rounded-lg bg-surface-container-lowest font-label-md text-label-md font-bold text-primary shadow-sm transition-all';
+          btnDay2.className = 'px-3 py-1 rounded-lg text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-all';
+          showToast('Menampilkan Rundown Hari 1 (15 Nov 2025)');
+        });
+        btnDay2.addEventListener('click', () => {
+          btnDay2.className = 'px-3 py-1 rounded-lg bg-surface-container-lowest font-label-md text-label-md font-bold text-primary shadow-sm transition-all';
+          btnDay1.className = 'px-3 py-1 rounded-lg text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-all';
+          showToast('Menampilkan Rundown Hari 2 (16 Nov 2025)');
+        });
+      }
+
+      // Share & Bookmark Toast Feedback
+      const btnBookmark = document.getElementById('btnBookmark');
+      const btnShare = document.getElementById('btnShare');
+      if (btnBookmark) {
+        btnBookmark.addEventListener('click', () => {
+          const icon = btnBookmark.querySelector('.material-symbols-outlined');
+          if (icon.textContent === 'bookmark_border') {
+            icon.textContent = 'bookmark';
+            showToast('Event berhasil disimpan ke Favorit Anda.');
+          } else {
+            icon.textContent = 'bookmark_border';
+            showToast('Event dihapus dari Favorit.');
+          }
+        });
+      }
+      if (btnShare) {
+        btnShare.addEventListener('click', () => {
+          navigator.clipboard ? navigator.clipboard.writeText(window.location.href) : null;
+          showToast('Tautan event berhasil disalin!');
+        });
+      }
+
+      // Modal Booking Flow
+      const btnRegisterNow = document.getElementById('btnRegisterNow');
+      const bookingModal = document.getElementById('bookingModal');
+      const btnCloseModal = document.getElementById('btnCloseModal');
+      const btnContinueBrowse = document.getElementById('btnContinueBrowse');
+      const btnComplete = document.getElementById('btnComplete');
+      const modalTierEl = document.getElementById('modalTicketTier');
+      const modalQtyEl = document.getElementById('modalTicketQty');
+
+      function openModal() {
+        const selectedRadio = document.querySelector('input[name="ticket_tier"]:checked');
+        const tierName = selectedRadio && selectedRadio.value === 'vip' 
+          ? 'VIP + Workshop Pass' 
+          : 'Regular Conference Pass';
+        if (modalTierEl) modalTierEl.textContent = tierName;
+        if (modalQtyEl) modalQtyEl.textContent = count + ' Tiket';
+        bookingModal.classList.remove('hidden');
+        bookingModal.classList.add('flex');
+      }
+
+      function closeModal() {
+        bookingModal.classList.add('hidden');
+        bookingModal.classList.remove('flex');
+      }
+
+      if (btnRegisterNow) btnRegisterNow.addEventListener('click', openModal);
+      if (btnCloseModal) btnCloseModal.addEventListener('click', closeModal);
+      if (btnContinueBrowse) btnContinueBrowse.addEventListener('click', closeModal);
+      if (btnComplete) {
+        btnComplete.addEventListener('click', () => {
+          closeModal();
+          showToast('Pendaftaran Berhasil! Silakan periksa tab Tiket Saya.');
+        });
+      }
+
+      // Toast utility
+      function showToast(msg) {
+        const toast = document.getElementById('toastNotification');
+        const toastMsg = document.getElementById('toastMessage');
+        if (!toast || !toastMsg) return;
+        toastMsg.textContent = msg;
+        toast.classList.remove('translate-y-24', 'opacity-0');
+        toast.classList.add('translate-y-0', 'opacity-100');
+        setTimeout(() => {
+          toast.classList.add('translate-y-24', 'opacity-0');
+          toast.classList.remove('translate-y-0', 'opacity-100');
+        }, 3200);
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(0,0,0,0.03)]"><div class="max-w-[1360px] mx-auto px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl mb-space-xl"><div class="lg:col-span-2 flex flex-col gap-space-md"><div class="flex items-center gap-3"><img alt="EVENTKU Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WBqW3eKXSgzqS_HoiMpan8qw2DIhzXDjlBIoGMXS4q8zg2wnx_PndevqD3POgLAA4XsoGfmxiIcbr5ZTgC2DDksuaWyE8wx3-mkRSYFm7WeS1aPi9kCBmVMKwdhnO-lOhdOI-fEDy8gY1ydgxZdTeBK4rgmPVONUaN-saoBSknrlKjY68-WmUhhN0Le2USEAEOozvN2M-pXTZoiNnMAg0TwnikUKb2-dbkXf8PA9SUp0NbY6b76dme6CKe"/><span class="font-headline-sm text-headline-sm text-primary font-bold">EVENTKU</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Platform manajemen dan ticketing event digital terdepan di Indonesia. Menghadirkan kemudahan transaksi tiket, keamanan autentikasi QR, dan pengalaman event tak terlupakan.</p><div class="flex items-center gap-3"><span class="font-label-sm text-label-sm text-on-surface-variant">Bahasa:</span><div class="inline-flex items-center gap-1.5 px-space-sm py-space-xs rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md"><span class="material-symbols-outlined text-[16px] text-primary">language</span><span>Indonesia (ID)</span></div></div></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-on-surface">Jelajah & Beli</h4><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="jelajahi-event" href="#">Semua Event</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kategori" href="#">Konser & Musik</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kategori" href="#">Konferensi Bisnis</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kategori" href="#">Workshop & Kelas</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kategori" href="#">Festival Budaya</a></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-on-surface">Penyelenggara</h4><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="buat-event" href="#">Buat Event Baru</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kelola-tiket" href="#">Sistem Ticketing</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="qr-check-in" href="#">Aplikasi Gate Check-in</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="laporan-analitik" href="#">Solusi Enterprise</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="tentang-kami" href="#">Panduan Creator</a></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-on-surface">Berlangganan Info</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Dapatkan penawaran presale dan jadwal festival musik terbaru langsung ke email Anda.</p><div class="flex flex-col gap-2"><div class="flex items-center rounded-lg bg-surface-container-low p-1"><input class="bg-transparent px-3 py-1.5 font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none w-full" placeholder="Masukkan email Anda" type="email"/><button class="px-space-md py-1.5 bg-primary text-on-primary rounded-lg font-label-md text-label-md hover:bg-primary-container transition-colors" type="button">Kirim</button></div><span class="font-body-sm text-body-sm text-secondary">Privasi Anda terjamin 100%.</span></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2025 PT EVENTKU Digital Nusantara. Hak Cipta Dilindungi.</p><div class="flex items-center gap-6"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Syarat & Ketentuan</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Kebijakan Privasi</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Pusat Bantuan</a></div></div></div></footer></body></html>

@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('content')<div class="auth-shell"><div class="auth-card"><span class="eyebrow">403 ACCESS DENIED</span><h1>Akses tidak diizinkan.</h1><p class="muted">Anda tidak memiliki permission untuk membuka halaman ini.</p><a class="btn btn-primary" href="{{ route('home') }}">Kembali ke Beranda</a></div></div>@endsection
